@@ -32,8 +32,8 @@
     [UIViewController showSafariViewControllerForURLstr:@"https://github.com/euwars/Farsi" from:self];
 }
 
-- (BOOL)prefersStatusBarHidden {
-    return YES;
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 @end
