@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1837F731445BBAFFBC062D7 /* libPods-Farsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC646FEFD8C7023E4A12E745 /* libPods-Farsi.a */; };
+		CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */; };
 		CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC59A1C9C9EB7002A5E5D /* main.m */; };
 		CBCDC5A61C9C9EB7002A5E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */; };
 		CBCDC5B41C9C9EB7002A5E5D /* FarsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5B31C9C9EB7002A5E5D /* FarsiTests.m */; };
@@ -20,7 +21,6 @@
 		CBCDC5E41C9CA160002A5E5D /* UIFont+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5DF1C9CA160002A5E5D /* UIFont+Core.m */; };
 		CBCDC5E51C9CA160002A5E5D /* UIViewController+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5E11C9CA160002A5E5D /* UIViewController+Core.m */; };
 		CBCDC5E81C9CA189002A5E5D /* GetStartedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5E71C9CA189002A5E5D /* GetStartedViewController.m */; };
-		CBCDC5F11C9CA1B8002A5E5D /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5F01C9CA1B8002A5E5D /* KeyboardViewController.m */; };
 		CBCDC5F51C9CA1B8002A5E5D /* Farsi Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBCDC5ED1C9CA1B8002A5E5D /* Farsi Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBCDC6021C9CA262002A5E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5FE1C9CA262002A5E5D /* LaunchScreen.storyboard */; };
 		CBCDC6031C9CA262002A5E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC6001C9CA262002A5E5D /* Main.storyboard */; };
@@ -70,6 +70,8 @@
 /* Begin PBXFileReference section */
 		5634AC8917D9A1940BFACCA2 /* Pods-Farsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi/Pods-Farsi.debug.xcconfig"; sourceTree = "<group>"; };
 		68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi/Pods-Farsi.release.xcconfig"; sourceTree = "<group>"; };
+		CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarsiKeyboardViewController.h; sourceTree = "<group>"; };
+		CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarsiKeyboardViewController.m; sourceTree = "<group>"; };
 		CBA2C8271C9CB94500A8A9BA /* Farsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Farsi.entitlements; sourceTree = "<group>"; };
 		CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Farsi Keyboard.entitlements"; sourceTree = "<group>"; };
 		CBCDC5961C9C9EB7002A5E5D /* Farsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +101,6 @@
 		CBCDC5E61C9CA189002A5E5D /* GetStartedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetStartedViewController.h; path = UI/Getstarted/GetStartedViewController.h; sourceTree = "<group>"; };
 		CBCDC5E71C9CA189002A5E5D /* GetStartedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetStartedViewController.m; path = UI/Getstarted/GetStartedViewController.m; sourceTree = "<group>"; };
 		CBCDC5ED1C9CA1B8002A5E5D /* Farsi Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Farsi Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBCDC5EF1C9CA1B8002A5E5D /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
-		CBCDC5F01C9CA1B8002A5E5D /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		CBCDC5F21C9CA1B8002A5E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCDC5FF1C9CA262002A5E5D /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "fa-IR"; path = "fa-IR.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		CBCDC6011C9CA262002A5E5D /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "fa-IR"; path = "fa-IR.lproj/Main.storyboard"; sourceTree = "<group>"; };
@@ -284,8 +284,8 @@
 			isa = PBXGroup;
 			children = (
 				CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */,
-				CBCDC5EF1C9CA1B8002A5E5D /* KeyboardViewController.h */,
-				CBCDC5F01C9CA1B8002A5E5D /* KeyboardViewController.m */,
+				CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */,
+				CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */,
 				CBCDC5F21C9CA1B8002A5E5D /* Info.plist */,
 			);
 			path = "Farsi Keyboard";
@@ -558,7 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBCDC5F11C9CA1B8002A5E5D /* KeyboardViewController.m in Sources */,
+				CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

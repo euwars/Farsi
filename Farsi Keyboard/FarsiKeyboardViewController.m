@@ -1,18 +1,19 @@
 //
-//  KeyboardViewController.m
-//  Farsi Keyboard
+//  FarsiKeyboardViewController.m
+//  Farsi
 //
-//  Created by Farzad Nazifi on 3/18/16.
+//  Created by Farzad Nazifi on 3/19/16.
 //  Copyright © 2016 Farzad Nazifi. All rights reserved.
 //
 
-#import "KeyboardViewController.h"
+#import "FarsiKeyboardViewController.h"
 
-@interface KeyboardViewController ()
+@interface FarsiKeyboardViewController ()
 @property (nonatomic, strong) UIButton *nextKeyboardButton;
+
 @end
 
-@implementation KeyboardViewController
+@implementation FarsiKeyboardViewController
 
 - (void)updateViewConstraints {
     [super updateViewConstraints];
@@ -58,5 +59,4 @@
     }
     [self.nextKeyboardButton setTitleColor:textColor forState:UIControlStateNormal];
 }
-
 @end
