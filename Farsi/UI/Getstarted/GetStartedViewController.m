@@ -1,13 +1,13 @@
 //
 //  GetStartedViewController.m
-//  PersianTyper
+//  Farsi
 //
 //  Created by Farzad Nazifi on 3/14/16.
 //  Copyright © 2016 Notice. All rights reserved.
 //
 
 #import "GetStartedViewController.h"
-#import "PTCore.h"
+#import "FACore.h"
 
 @implementation GetStartedViewController
 
@@ -29,11 +29,11 @@
 }
 
 - (IBAction)githubAction:(id)sender {
-    [UIViewController showSafariViewControllerForURLstr:@"https://github.com/euwars/PersianTyper-2.0" from:self];
+    [UIViewController showSafariViewControllerForURLstr:@"https://github.com/euwars/Farsi" from:self];
 }
 
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 @end

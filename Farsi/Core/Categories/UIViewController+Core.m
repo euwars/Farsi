@@ -1,13 +1,13 @@
 //
 //  UIViewController+Core.m
-//  PersianTyper
+//  Farsi
 //
 //  Created by Farzad Nazifi on 3/14/16.
 //  Copyright © 2016 Notice. All rights reserved.
 //
 
 #import "UIViewController+Core.h"
-#import "PTCore.h"
+#import "FACore.h"
 #import <UIKit/UIKit.h>
 
 @implementation UIViewController (Core)

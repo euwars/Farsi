@@ -1,6 +1,6 @@
 //
 //  UIColor+Core.h
-//  PersianTyper
+//  Farsi
 //
 //  Created by Farzad Nazifi on 3/14/16.
 //  Copyright © 2016 Notice. All rights reserved.

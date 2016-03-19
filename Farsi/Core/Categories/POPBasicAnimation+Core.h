@@ -1,6 +1,6 @@
 //
 //  POPBasicAnimation+Core.h
-//  PersianTyper
+//  Farsi
 //
 //  Created by Farzad Nazifi on 3/15/16.
 //  Copyright © 2016 Notice. All rights reserved.
