@@ -2,9 +2,13 @@
 
 Farsi is a third party persian iOS keyboard. this keyboard will be avaible on appstore for free, when it reaches a point that it's stable enough for regular users.
 
+## Design
+
+In case you want to edit, or check project design files. you can do it [here.](https://github.com/euwars/Farsi-Design)
+
 ## Let's chat! [![Slack channel](http://xcode.ir/badge.svg)](http://xcode.ir/)
 
-we are using slack as our comminumcation service which you can [join here](http://xcode.ir/). if you don't want to use slack, simply open an issue for question or suggestions.
+We are using slack as our comminumcation service which you can [join here](http://xcode.ir/). if you don't want to use slack, simply open an issue for question or suggestions.
 
 ## Development Guideline
 
