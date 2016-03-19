@@ -65,7 +65,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.83922275641025634" green="0.83922275641025634" blue="0.83922275641025634" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9I7-eI-sLO" secondAttribute="bottom" id="51c-KF-F2b"/>
                             <constraint firstItem="UsF-nW-HM9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-15" id="OeG-fV-NxF"/>

@@ -21,7 +21,7 @@
     self.getstartedButton.alpha = 0;
     self.githubButton.alpha = 0;
 
-    [POPBasicAnimation fadeViewToAlpha:.85 WithDelay:0 forDuration:1 forView:self.backgroundImageView];
+    [POPBasicAnimation fadeViewToAlpha:.85 WithDelay:0 forDuration:2 forView:self.backgroundImageView];
     [POPBasicAnimation fadeViewToAlpha:1 WithDelay:0.5 forDuration:1 forView:self.logoImageView];
     [POPBasicAnimation fadeViewToAlpha:.8 WithDelay:1.25 forDuration:1 forView:self.sloganLabel];
     [POPBasicAnimation fadeViewToAlpha:1 WithDelay:1.75 forDuration:1 forView:self.githubButton];
