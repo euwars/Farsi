@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10112" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Tanha.ttf">
+            <string>Tanha</string>
+        </mutableArray>
+        <mutableArray key="Vazir.ttf">
+            <string>Vazir</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Get Started View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GetStartedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="getstartedBG" translatesAutoresizingMaskIntoConstraints="NO" id="79p-RA-QZ9">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shanghai-Art-Museum-logo" translatesAutoresizingMaskIntoConstraints="NO" id="UsF-nW-HM9">
+                                <rect key="frame" x="30" y="212" width="540" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UsF-nW-HM9" secondAttribute="height" multiplier="4.9:1" constant="1" id="H70-x2-GyB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="کیبورد فارسی رایگان و متن باز" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhS-fb-Yq3">
+                                <rect key="frame" x="206" y="330" width="187.5" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Tanha" family="Tanha" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9I7-eI-sLO">
+                                <rect key="frame" x="150" y="560" width="300" height="40"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="GitHub">
+                                            <attributes>
+                                                <color key="NSColor" red="0.93423329479999995" green="0.97088173519999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="13" name="LucidaGrande"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="githubAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vhJ-Mg-Cqk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8c9-nG-SY9">
+                                <rect key="frame" x="150" y="517" width="300" height="43"/>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="f3b-Bo-zSz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="-6" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="شروع">
+                                    <color key="titleColor" red="0.74117648601531982" green="0.23921568691730499" blue="0.28627452254295349" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9I7-eI-sLO" secondAttribute="bottom" id="51c-KF-F2b"/>
+                            <constraint firstItem="UsF-nW-HM9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-33" id="OeG-fV-NxF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9I7-eI-sLO" secondAttribute="bottom" id="QOw-Uh-ioh"/>
+                            <constraint firstItem="8c9-nG-SY9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="R2Z-Oy-AuO"/>
+                            <constraint firstItem="EhS-fb-Yq3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sus-wJ-mRt"/>
+                            <constraint firstItem="79p-RA-QZ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VfV-2N-089"/>
+                            <constraint firstItem="79p-RA-QZ9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="aX9-Mq-d67"/>
+                            <constraint firstItem="9I7-eI-sLO" firstAttribute="width" secondItem="8c9-nG-SY9" secondAttribute="width" id="aoI-Yi-Pom"/>
+                            <constraint firstItem="79p-RA-QZ9" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="fG5-7a-ADH"/>
+                            <constraint firstItem="EhS-fb-Yq3" firstAttribute="top" secondItem="UsF-nW-HM9" secondAttribute="bottom" constant="8" id="h4T-oh-K6v"/>
+                            <constraint firstItem="8c9-nG-SY9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jyw-BA-fu8"/>
+                            <constraint firstItem="9I7-eI-sLO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sYi-ho-RdL"/>
+                            <constraint firstItem="9I7-eI-sLO" firstAttribute="top" secondItem="8c9-nG-SY9" secondAttribute="bottom" id="u6D-Ix-V7R"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8c9-nG-SY9" secondAttribute="bottom" constant="40" id="wBP-Rl-reQ"/>
+                            <constraint firstItem="79p-RA-QZ9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wLw-iK-7ZL"/>
+                            <constraint firstItem="UsF-nW-HM9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xOO-Eu-4aZ"/>
+                            <constraint firstItem="UsF-nW-HM9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="zpp-O9-m1p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="79p-RA-QZ9" id="MPg-v3-v5c"/>
+                        <outlet property="getstartedButton" destination="8c9-nG-SY9" id="l42-bk-Q5Q"/>
+                        <outlet property="githubButton" destination="9I7-eI-sLO" id="GNN-qf-4uI"/>
+                        <outlet property="logoImageView" destination="UsF-nW-HM9" id="PKE-vC-HHB"/>
+                        <outlet property="sloganLabel" destination="EhS-fb-Yq3" id="0uf-j2-VuQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="662"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Shanghai-Art-Museum-logo" width="500" height="103"/>
+        <image name="getstartedBG" width="1000" height="666"/>
+    </resources>
+</document>
