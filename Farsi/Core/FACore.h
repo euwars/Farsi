@@ -20,6 +20,7 @@
 #import "BlocksKit+UIKit.h"
 #import "BlocksKit+MessageUI.h"
 #import <SafariServices/SafariServices.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface FACore : NSObject
 

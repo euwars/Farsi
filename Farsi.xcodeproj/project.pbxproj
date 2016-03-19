@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B1837F731445BBAFFBC062D7 /* libPods-Farsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC646FEFD8C7023E4A12E745 /* libPods-Farsi.a */; };
 		CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */; };
+		CB6B10701C9DE65200AD8C4D /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B106F1C9DE65200AD8C4D /* RootNavigationViewController.m */; };
+		CB6B10731C9E0CAA00AD8C4D /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB6B10721C9E0CAA00AD8C4D /* tutorial.mp4 */; };
+		CB6B10771C9E0CE700AD8C4D /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B10761C9E0CE700AD8C4D /* TutorialViewController.m */; };
+		CB6B107B1C9E120000AD8C4D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */; };
 		CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC59A1C9C9EB7002A5E5D /* main.m */; };
 		CBCDC5A61C9C9EB7002A5E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */; };
 		CBCDC5B41C9C9EB7002A5E5D /* FarsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5B31C9C9EB7002A5E5D /* FarsiTests.m */; };
@@ -24,7 +28,6 @@
 		CBCDC5F51C9CA1B8002A5E5D /* Farsi Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CBCDC5ED1C9CA1B8002A5E5D /* Farsi Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CBCDC6021C9CA262002A5E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5FE1C9CA262002A5E5D /* LaunchScreen.storyboard */; };
 		CBCDC6031C9CA262002A5E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC6001C9CA262002A5E5D /* Main.storyboard */; };
-		CBF87ADF1C9CC16A000BA3FF /* Tanha.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADC1C9CC16A000BA3FF /* Tanha.ttf */; };
 		CBF87AE01C9CC16A000BA3FF /* Vazir-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADD1C9CC16A000BA3FF /* Vazir-Bold.ttf */; };
 		CBF87AE11C9CC16A000BA3FF /* Vazir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADE1C9CC16A000BA3FF /* Vazir.ttf */; };
 /* End PBXBuildFile section */
@@ -72,6 +75,13 @@
 		68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi/Pods-Farsi.release.xcconfig"; sourceTree = "<group>"; };
 		CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarsiKeyboardViewController.h; sourceTree = "<group>"; };
 		CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarsiKeyboardViewController.m; sourceTree = "<group>"; };
+		CB6B106E1C9DE65200AD8C4D /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootNavigationViewController.h; path = UI/RootNavigation/RootNavigationViewController.h; sourceTree = "<group>"; };
+		CB6B106F1C9DE65200AD8C4D /* RootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootNavigationViewController.m; path = UI/RootNavigation/RootNavigationViewController.m; sourceTree = "<group>"; };
+		CB6B10721C9E0CAA00AD8C4D /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
+		CB6B10751C9E0CE700AD8C4D /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialViewController.h; path = UI/Tutorial/TutorialViewController.h; sourceTree = "<group>"; };
+		CB6B10761C9E0CE700AD8C4D /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialViewController.m; path = UI/Tutorial/TutorialViewController.m; sourceTree = "<group>"; };
+		CB6B10781C9E11E300AD8C4D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CBA2C8271C9CB94500A8A9BA /* Farsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Farsi.entitlements; sourceTree = "<group>"; };
 		CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Farsi Keyboard.entitlements"; sourceTree = "<group>"; };
 		CBCDC5961C9C9EB7002A5E5D /* Farsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +114,6 @@
 		CBCDC5F21C9CA1B8002A5E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBCDC5FF1C9CA262002A5E5D /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "fa-IR"; path = "fa-IR.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		CBCDC6011C9CA262002A5E5D /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "fa-IR"; path = "fa-IR.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		CBF87ADC1C9CC16A000BA3FF /* Tanha.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tanha.ttf; path = Fonts/Tanha.ttf; sourceTree = "<group>"; };
 		CBF87ADD1C9CC16A000BA3FF /* Vazir-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Vazir-Bold.ttf"; path = "Fonts/Vazir-Bold.ttf"; sourceTree = "<group>"; };
 		CBF87ADE1C9CC16A000BA3FF /* Vazir.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Vazir.ttf; path = Fonts/Vazir.ttf; sourceTree = "<group>"; };
 		FC646FEFD8C7023E4A12E745 /* libPods-Farsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Farsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B107B1C9E120000AD8C4D /* AVFoundation.framework in Frameworks */,
 				B1837F731445BBAFFBC062D7 /* libPods-Farsi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +156,8 @@
 		8BD8A2D78ECC48EEEF651F5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */,
+				CB6B10781C9E11E300AD8C4D /* AVKit.framework */,
 				FC646FEFD8C7023E4A12E745 /* libPods-Farsi.a */,
 			);
 			name = Frameworks;
@@ -158,6 +170,24 @@
 				68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB6B10711C9DE65700AD8C4D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B106E1C9DE65200AD8C4D /* RootNavigationViewController.h */,
+				CB6B106F1C9DE65200AD8C4D /* RootNavigationViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		CB6B10741C9E0CBB00AD8C4D /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B10751C9E0CE700AD8C4D /* TutorialViewController.h */,
+				CB6B10761C9E0CE700AD8C4D /* TutorialViewController.m */,
+			);
+			name = Tutorial;
 			sourceTree = "<group>";
 		};
 		CBCDC58D1C9C9EB7002A5E5D = {
@@ -198,6 +228,7 @@
 		CBCDC5991C9C9EB7002A5E5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B10721C9E0CAA00AD8C4D /* tutorial.mp4 */,
 				CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */,
 				CBF87ADB1C9CC0F1000BA3FF /* Fonts */,
 				CBCDC5AA1C9C9EB7002A5E5D /* Info.plist */,
@@ -264,7 +295,9 @@
 		CBCDC5CF1C9CA0D4002A5E5D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CB6B10711C9DE65700AD8C4D /* Navigation */,
 				CBCDC5D01C9CA0DC002A5E5D /* GetStarted */,
+				CB6B10741C9E0CBB00AD8C4D /* Tutorial */,
 				CBCDC6001C9CA262002A5E5D /* Main.storyboard */,
 				CBCDC5FE1C9CA262002A5E5D /* LaunchScreen.storyboard */,
 			);
@@ -294,7 +327,6 @@
 		CBF87ADB1C9CC0F1000BA3FF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				CBF87ADC1C9CC16A000BA3FF /* Tanha.ttf */,
 				CBF87ADD1C9CC16A000BA3FF /* Vazir-Bold.ttf */,
 				CBF87ADE1C9CC16A000BA3FF /* Vazir.ttf */,
 			);
@@ -395,6 +427,9 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
 							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
 						};
 					};
 					CBCDC5AE1C9C9EB7002A5E5D = {
@@ -441,8 +476,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B10731C9E0CAA00AD8C4D /* tutorial.mp4 in Resources */,
 				CBCDC6031C9CA262002A5E5D /* Main.storyboard in Resources */,
-				CBF87ADF1C9CC16A000BA3FF /* Tanha.ttf in Resources */,
 				CBF87AE01C9CC16A000BA3FF /* Vazir-Bold.ttf in Resources */,
 				CBCDC5A61C9C9EB7002A5E5D /* Assets.xcassets in Resources */,
 				CBCDC6021C9CA262002A5E5D /* LaunchScreen.storyboard in Resources */,
@@ -526,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6B10701C9DE65200AD8C4D /* RootNavigationViewController.m in Sources */,
 				CBCDC5D61C9CA128002A5E5D /* FACore.m in Sources */,
 				CBCDC5E81C9CA189002A5E5D /* GetStartedViewController.m in Sources */,
 				CBCDC5D91C9CA155002A5E5D /* FAUserInfo.m in Sources */,
@@ -535,6 +571,7 @@
 				CBCDC5D31C9CA0EF002A5E5D /* AppDelegate.m in Sources */,
 				CBCDC5E31C9CA160002A5E5D /* UIColor+Core.m in Sources */,
 				CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */,
+				CB6B10771C9E0CE700AD8C4D /* TutorialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,7 +676,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -678,7 +715,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

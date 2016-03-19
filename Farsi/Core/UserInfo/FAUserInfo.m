@@ -10,4 +10,18 @@
 
 @implementation FAUserInfo
 
+@dynamic keyboardIsActive;
+
+- (BOOL)save {
+    return [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (void)reset {
+    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:@"com.Farsi"];
+}
+
+- (NSDictionary *)asDictionary {
+    return [[NSUserDefaults standardUserDefaults] dictionaryRepresentation];
+}
+
 @end

@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Tgk-X4-Vgg">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Vazir.ttf">
             <string>Vazir</string>
+            <string>Vazir</string>
+            <string>Vazir</string>
+            <string>Vazir</string>
         </mutableArray>
     </customFonts>
     <scenes>
+        <!--Root Navigation View Controller-->
+        <scene sceneID="GSj-yJ-9bD">
+            <objects>
+                <navigationController storyboardIdentifier="rootNavigation" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="Tgk-X4-Vgg" customClass="RootNavigationViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zad-aj-GnM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6SN-de-gKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138" y="739"/>
+        </scene>
         <!--Get Started View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GetStartedViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GetStarted" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="GetStartedViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -46,7 +61,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="-6" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="شروع">
+                                <state key="normal" title="آموزش راه‌اندازی">
                                     <color key="titleColor" red="1" green="1" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </state>
@@ -55,6 +70,9 @@
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="2Mr-PT-jlX" kind="show" id="ruK-lz-Ezc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -90,7 +108,102 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="674" y="662"/>
+            <point key="canvasLocation" x="581" y="431"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="p65-WK-y0w">
+            <objects>
+                <viewController id="2Mr-PT-jlX" customClass="TutorialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BLF-nd-5QL"/>
+                        <viewControllerLayoutGuide type="bottom" id="K94-Vy-Yao"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GXe-pp-O4f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="آموزش راه‌اندازی" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWh-Qs-Mzs">
+                                <rect key="frame" x="239" y="30" width="123" height="28"/>
+                                <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                <color key="textColor" red="0.2196078431372549" green="0.22745098039215686" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCd-UD-9fi">
+                                <rect key="frame" x="30" y="540" width="540" height="52"/>
+                                <string key="text">پس از اضافه‌کردن کیبورد، برای شخصی‌سازی
+ به همینجا برگردید</string>
+                                <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpp-A8-XxI">
+                                <rect key="frame" x="0.0" y="38" width="600" height="442"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWc-fq-3qP">
+                                <rect key="frame" x="150" y="490" width="300" height="44"/>
+                                <color key="backgroundColor" red="0.33725490200000002" green="0.38431372549999998" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4VN-cN-hjI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="-6" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="ورود به تنظیمات">
+                                    <color key="titleColor" red="1" green="1" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="settingsAction:" destination="2Mr-PT-jlX" eventType="touchUpInside" id="elh-O9-ADZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.9891198677751678" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="K94-Vy-Yao" firstAttribute="top" secondItem="cCd-UD-9fi" secondAttribute="bottom" constant="8" id="5kG-Lp-qMv"/>
+                            <constraint firstItem="RWc-fq-3qP" firstAttribute="centerX" secondItem="GXe-pp-O4f" secondAttribute="centerX" id="BRQ-19-cAq"/>
+                            <constraint firstItem="vWh-Qs-Mzs" firstAttribute="top" secondItem="BLF-nd-5QL" secondAttribute="bottom" constant="10" id="IUq-N8-Y3T"/>
+                            <constraint firstItem="Cpp-A8-XxI" firstAttribute="top" secondItem="vWh-Qs-Mzs" secondAttribute="bottom" constant="-20" id="MHn-zE-r4N"/>
+                            <constraint firstItem="Cpp-A8-XxI" firstAttribute="width" secondItem="GXe-pp-O4f" secondAttribute="width" id="ReU-bO-mcr"/>
+                            <constraint firstItem="Cpp-A8-XxI" firstAttribute="centerX" secondItem="GXe-pp-O4f" secondAttribute="centerX" id="eGf-cB-8fR"/>
+                            <constraint firstItem="cCd-UD-9fi" firstAttribute="top" secondItem="RWc-fq-3qP" secondAttribute="bottom" constant="6" id="fd1-Ru-unf"/>
+                            <constraint firstItem="cCd-UD-9fi" firstAttribute="width" secondItem="GXe-pp-O4f" secondAttribute="width" multiplier="0.9" id="l1G-g2-yoH"/>
+                            <constraint firstItem="RWc-fq-3qP" firstAttribute="width" secondItem="GXe-pp-O4f" secondAttribute="width" multiplier="0.5" id="rp7-FX-F7F"/>
+                            <constraint firstItem="K94-Vy-Yao" firstAttribute="top" secondItem="RWc-fq-3qP" secondAttribute="bottom" constant="66" id="uYB-mF-FDm"/>
+                            <constraint firstItem="RWc-fq-3qP" firstAttribute="top" secondItem="Cpp-A8-XxI" secondAttribute="bottom" constant="10" id="vwD-Cv-fDw"/>
+                            <constraint firstItem="cCd-UD-9fi" firstAttribute="centerX" secondItem="GXe-pp-O4f" secondAttribute="centerX" id="xPR-3j-Q6J"/>
+                            <constraint firstItem="vWh-Qs-Mzs" firstAttribute="centerX" secondItem="GXe-pp-O4f" secondAttribute="centerX" id="zlU-qJ-WCN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="videoOverlay" destination="Cpp-A8-XxI" id="HBX-Ul-Dh5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdo-GB-v9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302" y="431"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JWH-hJ-yJO">
+            <objects>
+                <viewController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2WE-Zt-0Mq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pDX-US-6D5"/>
+                        <viewControllerLayoutGuide type="bottom" id="48j-19-L93"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qyb-iZ-NJk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tjy-f7-MhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="581" y="1179"/>
         </scene>
     </scenes>
     <resources>

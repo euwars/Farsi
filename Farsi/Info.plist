@@ -24,7 +24,6 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Tanha.ttf</string>
 		<string>Vazir.ttf</string>
 		<string>Vazir-Bold.ttf</string>
 	</array>

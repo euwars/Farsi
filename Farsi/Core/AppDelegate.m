@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "FACore.h"
 @interface AppDelegate ()
 
 @end
@@ -36,6 +36,10 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    if (!INFO.keyboardIsActive == [[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleKeyboards"] containsObject:@"com.Farsi.Farsi-Keyboard"]) {
+        INFO.keyboardIsActive = [[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleKeyboards"] containsObject:@"com.Farsi.Farsi-Keyboard"];
+        [INFO save];
+    }
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

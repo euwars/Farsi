@@ -10,4 +10,14 @@
 
 @interface FAUserInfo : GVUserDefaults
 
+@property (nonatomic) BOOL keyboardIsActive;
+
+- (BOOL)save;
+- (void)reset;
+- (NSDictionary *)asDictionary;
+
+#ifndef INFO
+#define INFO [FAUserInfo standardUserDefaults]
+#endif
+
 @end
