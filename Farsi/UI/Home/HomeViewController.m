@@ -27,6 +27,7 @@
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = [UIImage imageNamed:@"farsilogo"];
     self.navigationItem.titleView = imageView;
+    tracker = YES;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
