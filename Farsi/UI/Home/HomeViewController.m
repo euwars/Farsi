@@ -65,7 +65,7 @@
         
         [[RACObserve(pageVC, scrollRatio) skip:1] subscribeNext:^(id x) {
             if (tracker) {
-                [segmentedControl _moveThumbToNewFrame:CGRectMake((self.view.frame.size.width/2)*pageVC.scrollRatio, 3, 204, 34)];
+                [segmentedControl _moveThumbToNewFrame:CGRectMake((self.view.frame.size.width/2)*pageVC.scrollRatio, 3, (segmentedControl.frame.size.width/2)-3, 34)];
             }
         }];
     }
