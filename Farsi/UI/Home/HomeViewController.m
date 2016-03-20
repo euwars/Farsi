@@ -45,7 +45,7 @@
         [segmentedControl mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(@4);
             make.height.mas_equalTo(@40);
-            make.width.mas_equalTo(self.view.frame.size.width*.9);
+            make.width.mas_equalTo(self.topBar.mas_width);
             make.centerX.equalTo(self.topBar.mas_centerX);
         }];
         
