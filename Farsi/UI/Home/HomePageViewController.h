@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomePageViewController : UIPageViewController <UIPageViewControllerDelegate, UIPageViewControllerDataSource>
+@interface HomePageViewController : UIPageViewController <UIPageViewControllerDelegate, UIPageViewControllerDataSource, UIScrollViewDelegate>
 @property NSUInteger currentPageIndex;
+@property CGFloat scrollRatio;
 
 @end

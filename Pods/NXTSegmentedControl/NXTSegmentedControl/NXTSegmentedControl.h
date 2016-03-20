@@ -41,7 +41,7 @@ IB_DESIGNABLE
  *  @return The newly-initialized segmented control.
  */
 - (instancetype)initWithItems:(NSArray *)items;
-
+- (void)_moveThumbToNewFrame:(CGRect)newThumbFrame;
 
 /**
  *  Adds the ability to change the selected segment without animation. Changing

@@ -23,6 +23,11 @@
     UIViewController *startingViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"number1"];
     NSArray *viewControllers = @[startingViewController];
     [self setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    
+    for (UIScrollView *scrollview in self.view.subviews){
+        scrollview.delegate = self;
+    }
+    self.currentPageIndex = 1;
 }
 
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController{
@@ -48,6 +53,15 @@
         }else{
             self.currentPageIndex = 1;
         }
+    }
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if (self.currentPageIndex == 1 && scrollView.contentOffset.x/scrollView.frame.size.width < 1) {
+        self.scrollRatio = (scrollView.contentOffset.x/scrollView.frame.size.width);
+    }
+    if (self.currentPageIndex == 0 && scrollView.contentOffset.x/scrollView.frame.size.width > 1) {
+        self.scrollRatio = (scrollView.contentOffset.x/scrollView.frame.size.width) - 1;
     }
 }
 

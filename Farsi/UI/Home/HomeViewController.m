@@ -9,7 +9,9 @@
 #import "HomeViewController.h"
 #import "HomePageViewController.h"
 
-@interface HomeViewController ()
+@interface HomeViewController (){
+    BOOL tracker;
+}
 @end
 
 @implementation HomeViewController
@@ -25,10 +27,6 @@
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = [UIImage imageNamed:@"farsilogo"];
     self.navigationItem.titleView = imageView;
-}
-
-- (UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -51,14 +49,29 @@
         
         [[segmentedControl rac_signalForControlEvents:UIControlEventValueChanged]
          subscribeNext:^(UIControl *x) {
+             tracker = NO;
              UIViewController *currentVC = segmentedControl.selectedSegmentIndex ? [self.storyboard instantiateViewControllerWithIdentifier:@"number1"] : [self.storyboard instantiateViewControllerWithIdentifier:@"number2"];
-             [pageVC setViewControllers:@[currentVC] direction:segmentedControl.selectedSegmentIndex ? UIPageViewControllerNavigationDirectionForward : UIPageViewControllerNavigationDirectionReverse animated:YES completion:nil];
+             [pageVC setViewControllers:@[currentVC] direction:segmentedControl.selectedSegmentIndex ? UIPageViewControllerNavigationDirectionForward : UIPageViewControllerNavigationDirectionReverse animated:YES completion:^(BOOL finished) {
+                 if (finished) {
+                     tracker = YES;
+                 }
+             }];
          }];
         
         [[RACObserve(pageVC, currentPageIndex) skip:1] subscribeNext:^(id x) {
             [segmentedControl setSelectedSegmentIndex:pageVC.currentPageIndex];
         }];
+        
+        [[RACObserve(pageVC, scrollRatio) skip:1] subscribeNext:^(id x) {
+            if (tracker) {
+                [segmentedControl _moveThumbToNewFrame:CGRectMake((self.view.frame.size.width/2)*pageVC.scrollRatio, 3, 204, 34)];
+            }
+        }];
     }
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
 }
 
 @end
