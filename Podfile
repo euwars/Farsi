@@ -15,6 +15,8 @@ pod 'UIColor+Hex'
 pod 'UIAlertController+Blocks'
 pod 'SDWebImage'
 pod 'Realm'
+pod 'NXTSegmentedControl'
+pod 'Masonry'
 
 end
 

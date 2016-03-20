@@ -18,9 +18,11 @@
 #import "POPBasicAnimation+Core.h"
 #import "BlocksKit.h"
 #import "BlocksKit+UIKit.h"
+#import "NXTSegmentedControl.h"
 #import "BlocksKit+MessageUI.h"
 #import <SafariServices/SafariServices.h>
 #import <AVFoundation/AVFoundation.h>
+#import "Masonry.h"
 
 @interface FACore : NSObject
 

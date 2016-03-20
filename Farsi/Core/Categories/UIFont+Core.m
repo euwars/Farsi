@@ -10,15 +10,15 @@
 
 @implementation UIFont (Core)
 
-NSString*  FontForWeight(PTFontWeight fontWeight) {
+NSString*  FontForWeight(FAFontWeight fontWeight) {
     NSDictionary *fontsDictionary = @{
-                                      @(PTFontWeightRegular): @"Vazir",
-                                      @(PTFontWeightBold): @"Vazir-Bold"
+                                      @(FAFontWeightRegular): @"Vazir",
+                                      @(FAFontWeightBold): @"Vazir-Bold"
                                       };
     return fontsDictionary[@(fontWeight)];
 }
 
-+ (UIFont *)vazirWithWeight:(PTFontWeight)weight size:(CGFloat)size{
++ (UIFont *)vazirWithWeight:(FAFontWeight)weight size:(CGFloat)size{
     UIFont *font = [UIFont fontWithName:FontForWeight(weight) size:size];
     
     return font;

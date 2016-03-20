@@ -13,6 +13,8 @@
 		CB6B10731C9E0CAA00AD8C4D /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB6B10721C9E0CAA00AD8C4D /* tutorial.mp4 */; };
 		CB6B10771C9E0CE700AD8C4D /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B10761C9E0CE700AD8C4D /* TutorialViewController.m */; };
 		CB6B107B1C9E120000AD8C4D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */; };
+		CB6B107E1C9ED8DA00AD8C4D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */; };
+		CB6B10891C9EFD9A00AD8C4D /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */; };
 		CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC59A1C9C9EB7002A5E5D /* main.m */; };
 		CBCDC5A61C9C9EB7002A5E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */; };
 		CBCDC5B41C9C9EB7002A5E5D /* FarsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5B31C9C9EB7002A5E5D /* FarsiTests.m */; };
@@ -82,6 +84,10 @@
 		CB6B10761C9E0CE700AD8C4D /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialViewController.m; path = UI/Tutorial/TutorialViewController.m; sourceTree = "<group>"; };
 		CB6B10781C9E11E300AD8C4D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CB6B107C1C9ED8DA00AD8C4D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = UI/Home/HomeViewController.h; sourceTree = "<group>"; };
+		CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = UI/Home/HomeViewController.m; sourceTree = "<group>"; };
+		CB6B10871C9EFD9A00AD8C4D /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = UI/Home/HomePageViewController.h; sourceTree = "<group>"; };
+		CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = UI/Home/HomePageViewController.m; sourceTree = "<group>"; };
 		CBA2C8271C9CB94500A8A9BA /* Farsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Farsi.entitlements; sourceTree = "<group>"; };
 		CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Farsi Keyboard.entitlements"; sourceTree = "<group>"; };
 		CBCDC5961C9C9EB7002A5E5D /* Farsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +194,17 @@
 				CB6B10761C9E0CE700AD8C4D /* TutorialViewController.m */,
 			);
 			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		CB6B107F1C9ED8DE00AD8C4D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB6B107C1C9ED8DA00AD8C4D /* HomeViewController.h */,
+				CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */,
+				CB6B10871C9EFD9A00AD8C4D /* HomePageViewController.h */,
+				CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 		CBCDC58D1C9C9EB7002A5E5D = {
@@ -298,6 +315,7 @@
 				CB6B10711C9DE65700AD8C4D /* Navigation */,
 				CBCDC5D01C9CA0DC002A5E5D /* GetStarted */,
 				CB6B10741C9E0CBB00AD8C4D /* Tutorial */,
+				CB6B107F1C9ED8DE00AD8C4D /* Home */,
 				CBCDC6001C9CA262002A5E5D /* Main.storyboard */,
 				CBCDC5FE1C9CA262002A5E5D /* LaunchScreen.storyboard */,
 			);
@@ -567,11 +585,13 @@
 				CBCDC5D91C9CA155002A5E5D /* FAUserInfo.m in Sources */,
 				CBCDC5E41C9CA160002A5E5D /* UIFont+Core.m in Sources */,
 				CBCDC5E51C9CA160002A5E5D /* UIViewController+Core.m in Sources */,
+				CB6B10891C9EFD9A00AD8C4D /* HomePageViewController.m in Sources */,
 				CBCDC5E21C9CA160002A5E5D /* POPBasicAnimation+Core.m in Sources */,
 				CBCDC5D31C9CA0EF002A5E5D /* AppDelegate.m in Sources */,
 				CBCDC5E31C9CA160002A5E5D /* UIColor+Core.m in Sources */,
 				CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */,
 				CB6B10771C9E0CE700AD8C4D /* TutorialViewController.m in Sources */,
+				CB6B107E1C9ED8DA00AD8C4D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

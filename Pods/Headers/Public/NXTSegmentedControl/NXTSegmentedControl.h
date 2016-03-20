@@ -1,0 +1,1 @@
+../../../NXTSegmentedControl/NXTSegmentedControl/NXTSegmentedControl.h

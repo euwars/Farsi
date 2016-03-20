@@ -10,15 +10,15 @@
 
 @interface UIFont (Core)
 
-typedef NS_ENUM(NSInteger, PTFontWeight) {
-    PTFontWeightRegular = 0,
-    PTFontWeightBold = 1,
-    PTFontWeightBlack = 2,
-    PTFontWeightLight = 3,
-    PTFontWeightUltraLight = 4,
+typedef NS_ENUM(NSInteger, FAFontWeight) {
+    FAFontWeightRegular = 0,
+    FAFontWeightBold = 1,
+    FAFontWeightBlack = 2,
+    FAFontWeightLight = 3,
+    FAFontWeightUltraLight = 4,
 };
 
-+ (UIFont *)vazirWithWeight:(PTFontWeight)weight size:(CGFloat)size;
++ (UIFont *)vazirWithWeight:(FAFontWeight)weight size:(CGFloat)size;
 
 
 @end
