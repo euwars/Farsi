@@ -20,6 +20,21 @@ pod 'Masonry'
 
 end
 
+target 'Farsi Keyboard' do
+
+pod 'ReactiveCocoa','~> 2.3'
+pod 'GVUserDefaults'
+pod 'AFNetworking'
+pod 'pop'
+pod 'UIColor+Hex'
+pod 'UIAlertController+Blocks'
+pod 'SDWebImage'
+pod 'Realm'
+pod 'NXTSegmentedControl'
+pod 'Masonry'
+
+end
+
 target 'FarsiTests' do
 
 end

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6E3A745A4B84A9DA3BD4D8B0'
-               BlueprintName = 'GVUserDefaults'
+               BlueprintIdentifier = 'FCBFEC03F07CA08296FB79EE'
+               BlueprintName = 'Pods-Farsi Keyboard'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libGVUserDefaults.a'>
+               BuildableName = 'libPods-Farsi Keyboard.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -10,4 +10,7 @@
 
 @interface FarsiKeyboardViewController : UIInputViewController
 
+@property NSString *insertedString;
+@property NSUInteger currentView;
+
 @end

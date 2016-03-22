@@ -15,6 +15,18 @@
 		CB6B107B1C9E120000AD8C4D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */; };
 		CB6B107E1C9ED8DA00AD8C4D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */; };
 		CB6B10891C9EFD9A00AD8C4D /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */; };
+		CB92F1781CA0832000C5E9FC /* FarsiTheme.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */; };
+		CB92F1791CA085FB00C5E9FC /* FACore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5D51C9CA128002A5E5D /* FACore.m */; };
+		CB92F17A1CA0863C00C5E9FC /* POPBasicAnimation+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5DB1C9CA160002A5E5D /* POPBasicAnimation+Core.m */; };
+		CB92F17B1CA0863C00C5E9FC /* UIColor+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5DD1C9CA160002A5E5D /* UIColor+Core.m */; };
+		CB92F17C1CA0863C00C5E9FC /* UIFont+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5DF1C9CA160002A5E5D /* UIFont+Core.m */; };
+		CB92F17D1CA0863C00C5E9FC /* UIViewController+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5E11C9CA160002A5E5D /* UIViewController+Core.m */; };
+		CB92F17E1CA089D200C5E9FC /* Vazir-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADD1C9CC16A000BA3FF /* Vazir-Bold.ttf */; };
+		CB92F17F1CA089D400C5E9FC /* Vazir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADE1C9CC16A000BA3FF /* Vazir.ttf */; };
+		CB92F1841CA0944900C5E9FC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB92F1831CA0944900C5E9FC /* Media.xcassets */; };
+		CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA206D81CA0E10600EEC19A /* CharacterButton.m */; };
+		CBA799CF1CA1641E00309002 /* SwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA799CE1CA1641E00309002 /* SwitchButton.m */; };
+		CBA799D21CA172FF00309002 /* FarsiThemeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA799D11CA172FF00309002 /* FarsiThemeView.m */; };
 		CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC59A1C9C9EB7002A5E5D /* main.m */; };
 		CBCDC5A61C9C9EB7002A5E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */; };
 		CBCDC5B41C9C9EB7002A5E5D /* FarsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5B31C9C9EB7002A5E5D /* FarsiTests.m */; };
@@ -32,6 +44,7 @@
 		CBCDC6031C9CA262002A5E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC6001C9CA262002A5E5D /* Main.storyboard */; };
 		CBF87AE01C9CC16A000BA3FF /* Vazir-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADD1C9CC16A000BA3FF /* Vazir-Bold.ttf */; };
 		CBF87AE11C9CC16A000BA3FF /* Vazir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADE1C9CC16A000BA3FF /* Vazir.ttf */; };
+		CFC6707C12D6D0EBCB7BBFEE /* libPods-Farsi Keyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 745AC999235401DDF92E8452 /* libPods-Farsi Keyboard.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +86,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EED94D2021665E5D8C44A95 /* Pods-Farsi Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi Keyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi Keyboard/Pods-Farsi Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
 		5634AC8917D9A1940BFACCA2 /* Pods-Farsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi/Pods-Farsi.debug.xcconfig"; sourceTree = "<group>"; };
 		68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi/Pods-Farsi.release.xcconfig"; sourceTree = "<group>"; };
+		6A7F50A4FDF7A2483619A5C0 /* Pods-Farsi Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi Keyboard/Pods-Farsi Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		745AC999235401DDF92E8452 /* libPods-Farsi Keyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Farsi Keyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarsiKeyboardViewController.h; sourceTree = "<group>"; };
 		CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarsiKeyboardViewController.m; sourceTree = "<group>"; };
 		CB6B106E1C9DE65200AD8C4D /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootNavigationViewController.h; path = UI/RootNavigation/RootNavigationViewController.h; sourceTree = "<group>"; };
@@ -88,8 +104,16 @@
 		CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = UI/Home/HomeViewController.m; sourceTree = "<group>"; };
 		CB6B10871C9EFD9A00AD8C4D /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = UI/Home/HomePageViewController.h; sourceTree = "<group>"; };
 		CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = UI/Home/HomePageViewController.m; sourceTree = "<group>"; };
+		CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FarsiTheme.xib; path = UI/FarsiTheme.xib; sourceTree = "<group>"; };
+		CB92F1831CA0944900C5E9FC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = UI/Media.xcassets; sourceTree = "<group>"; };
+		CBA206D71CA0E10600EEC19A /* CharacterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterButton.h; path = UI/CharacterButton.h; sourceTree = "<group>"; };
+		CBA206D81CA0E10600EEC19A /* CharacterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterButton.m; path = UI/CharacterButton.m; sourceTree = "<group>"; };
 		CBA2C8271C9CB94500A8A9BA /* Farsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Farsi.entitlements; sourceTree = "<group>"; };
 		CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Farsi Keyboard.entitlements"; sourceTree = "<group>"; };
+		CBA799CD1CA1641E00309002 /* SwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchButton.h; path = UI/SwitchButton.h; sourceTree = "<group>"; };
+		CBA799CE1CA1641E00309002 /* SwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchButton.m; path = UI/SwitchButton.m; sourceTree = "<group>"; };
+		CBA799D01CA172FF00309002 /* FarsiThemeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FarsiThemeView.h; path = UI/FarsiTheme/FarsiThemeView.h; sourceTree = "<group>"; };
+		CBA799D11CA172FF00309002 /* FarsiThemeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FarsiThemeView.m; path = UI/FarsiTheme/FarsiThemeView.m; sourceTree = "<group>"; };
 		CBCDC5961C9C9EB7002A5E5D /* Farsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCDC59A1C9C9EB7002A5E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC6707C12D6D0EBCB7BBFEE /* libPods-Farsi Keyboard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +190,7 @@
 				CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */,
 				CB6B10781C9E11E300AD8C4D /* AVKit.framework */,
 				FC646FEFD8C7023E4A12E745 /* libPods-Farsi.a */,
+				745AC999235401DDF92E8452 /* libPods-Farsi Keyboard.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +200,8 @@
 			children = (
 				5634AC8917D9A1940BFACCA2 /* Pods-Farsi.debug.xcconfig */,
 				68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */,
+				0EED94D2021665E5D8C44A95 /* Pods-Farsi Keyboard.debug.xcconfig */,
+				6A7F50A4FDF7A2483619A5C0 /* Pods-Farsi Keyboard.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -335,9 +363,17 @@
 			isa = PBXGroup;
 			children = (
 				CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */,
+				CBA206D71CA0E10600EEC19A /* CharacterButton.h */,
+				CBA206D81CA0E10600EEC19A /* CharacterButton.m */,
+				CBA799CD1CA1641E00309002 /* SwitchButton.h */,
+				CBA799CE1CA1641E00309002 /* SwitchButton.m */,
 				CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */,
 				CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */,
+				CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */,
+				CB92F1831CA0944900C5E9FC /* Media.xcassets */,
 				CBCDC5F21C9CA1B8002A5E5D /* Info.plist */,
+				CBA799D01CA172FF00309002 /* FarsiThemeView.h */,
+				CBA799D11CA172FF00309002 /* FarsiThemeView.m */,
 			);
 			path = "Farsi Keyboard";
 			sourceTree = "<group>";
@@ -416,9 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBCDC5F61C9CA1B8002A5E5D /* Build configuration list for PBXNativeTarget "Farsi Keyboard" */;
 			buildPhases = (
+				691C0D7101C38FAD4EF8AEED /* Check Pods Manifest.lock */,
 				CBCDC5E91C9CA1B8002A5E5D /* Sources */,
 				CBCDC5EA1C9CA1B8002A5E5D /* Frameworks */,
 				CBCDC5EB1C9CA1B8002A5E5D /* Resources */,
+				852010E5736ED65D032C851D /* Embed Pods Frameworks */,
+				B9EDEFC579AE686DF44F9CE3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -521,6 +560,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB92F17E1CA089D200C5E9FC /* Vazir-Bold.ttf in Resources */,
+				CB92F1781CA0832000C5E9FC /* FarsiTheme.xib in Resources */,
+				CB92F1841CA0944900C5E9FC /* Media.xcassets in Resources */,
+				CB92F17F1CA089D400C5E9FC /* Vazir.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +583,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Farsi/Pods-Farsi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		691C0D7101C38FAD4EF8AEED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6990B47D31540AE637AC3E1C /* Check Pods Manifest.lock */ = {
@@ -570,6 +628,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Farsi/Pods-Farsi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852010E5736ED65D032C851D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Farsi Keyboard/Pods-Farsi Keyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EDEFC579AE686DF44F9CE3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Farsi Keyboard/Pods-Farsi Keyboard-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -615,7 +703,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB92F17C1CA0863C00C5E9FC /* UIFont+Core.m in Sources */,
 				CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */,
+				CBA799D21CA172FF00309002 /* FarsiThemeView.m in Sources */,
+				CB92F1791CA085FB00C5E9FC /* FACore.m in Sources */,
+				CB92F17D1CA0863C00C5E9FC /* UIViewController+Core.m in Sources */,
+				CB92F17B1CA0863C00C5E9FC /* UIColor+Core.m in Sources */,
+				CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */,
+				CB92F17A1CA0863C00C5E9FC /* POPBasicAnimation+Core.m in Sources */,
+				CBA799CF1CA1641E00309002 /* SwitchButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,6 +917,7 @@
 		};
 		CBCDC5F71C9CA1B8002A5E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EED94D2021665E5D8C44A95 /* Pods-Farsi Keyboard.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Farsi Keyboard/Info.plist";
@@ -833,6 +930,7 @@
 		};
 		CBCDC5F81C9CA1B8002A5E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7F50A4FDF7A2483619A5C0 /* Pods-Farsi Keyboard.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Farsi Keyboard/Info.plist";

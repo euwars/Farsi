@@ -20,7 +20,7 @@
     [self setNeedsStatusBarAppearanceUpdate];
     
     [RACObserve(INFO, keyboardIsActive) subscribeNext:^(id x) {
-        UIViewController *rootVC = !INFO.keyboardIsActive ? [self.storyboard instantiateViewControllerWithIdentifier:@"Home"] : [self.storyboard instantiateViewControllerWithIdentifier:@"GetStarted"];
+        UIViewController *rootVC = INFO.keyboardIsActive ? [self.storyboard instantiateViewControllerWithIdentifier:@"Home"] : [self.storyboard instantiateViewControllerWithIdentifier:@"GetStarted"];
         [self setViewControllers:@[rootVC] animated:NO];
     }];  
 }
