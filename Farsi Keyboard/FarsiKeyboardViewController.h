@@ -11,6 +11,8 @@
 @interface FarsiKeyboardViewController : UIInputViewController
 
 @property NSString *insertedString;
-@property NSUInteger currentView;
+
+@property NSString *popoverStr;
+@property CGRect popoverRect;
 
 @end

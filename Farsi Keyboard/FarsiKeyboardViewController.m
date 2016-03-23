@@ -12,33 +12,51 @@
 #import "FarsiThemeView.h"
 
 @interface FarsiKeyboardViewController (){
-    NSTimer *myTimerName;
+    FarsiThemeView *themeView;
+    UILabel *popupLabel;
 }
-
-@property (nonatomic, strong) UIButton *nextKeyboardButton;
-
 @end
 
 @implementation FarsiKeyboardViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    FarsiThemeView *firstViewUIView = [[[NSBundle mainBundle] loadNibNamed:@"FarsiTheme" owner:self options:nil] firstObject];
-    [self.view addSubview:firstViewUIView];
+    [self.view addSubview:themeView];
     
-    [firstViewUIView mas_makeConstraints:^(MASConstraintMaker *make) {
+    [themeView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
     
+    [self.view addSubview:popupLabel];
+    
+    [RACObserve(self, popoverRect) subscribeNext:^(id x) {
+        popupLabel.hidden = NO;
+        popupLabel.text = self.popoverStr;
+        popupLabel.frame = self.popoverRect;
+    }];
+    
     [[RACObserve(self, insertedString) skip:1]subscribeNext:^(id x) {
+        if ([self.insertedString isEqualToString:@" "] && themeView.alphabetsView.hidden) {
+            [themeView changeViewTo:0];
+        }
         [self.textDocumentProxy insertText:self.insertedString];
+        popupLabel.hidden = YES;
     }];
     
     [[[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"Delete" object:nil]
       takeUntil:[self rac_willDeallocSignal]]
      subscribeNext:^(id x) {
          [self.textDocumentProxy deleteBackward];
+         popupLabel.hidden = YES;
+     }];
+    
+    [[[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"TypeCancel" object:nil]
+      takeUntil:[self rac_willDeallocSignal]]
+     subscribeNext:^(id x) {
+         popupLabel.hidden = YES;
      }];
     
     [[[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"NextKeyboard" object:nil]
@@ -46,6 +64,60 @@
      subscribeNext:^(id x) {
          [self advanceToNextInputMode];
      }];
+    
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+        //custom initialization
+        UINib *nib = [UINib nibWithNibName:@"FarsiTheme" bundle:nil];
+        NSArray *array = [nib instantiateWithOwner:self options:nil];
+        themeView = array[0];
+        popupLabel = array[1];
+    }
+    return self;
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [RACObserve(self.textDocumentProxy, returnKeyType) subscribeNext:^(id x) {
+        
+        switch (self.textDocumentProxy.keyboardType) {
+            case UIReturnKeyGo:
+                [themeView changeReturnTitleTo:@"برو"];
+                break;
+            case UIReturnKeyGoogle:
+                [themeView changeReturnTitleTo:@"گوگل"];
+                break;
+            case UIReturnKeyJoin:
+                [themeView changeReturnTitleTo:@"ورود"];
+                break;
+            case UIReturnKeyNext:
+                [themeView changeReturnTitleTo:@"بعدی"];
+                break;
+            case UIReturnKeyRoute:
+                [themeView changeReturnTitleTo:@"مسیر"];
+                break;
+            case UIReturnKeySearch:
+                [themeView changeReturnTitleTo:@"جستجو"];
+                break;
+            case UIReturnKeySend:
+                [themeView changeReturnTitleTo:@"ارسال"];
+                break;
+            case UIReturnKeyYahoo:
+                [themeView changeReturnTitleTo:@"یاهو!"];
+                break;
+            case UIReturnKeyDone:
+                [themeView changeReturnTitleTo:@"تمام"];
+                break;
+            case UIReturnKeyEmergencyCall:
+                [themeView changeReturnTitleTo:@"اضطراری"];
+                break;
+            default:
+                [themeView changeReturnTitleTo:@"بازگشت"];
+                break;
+        }
+    }];
 }
 
 - (void)textWillChange:(id<UITextInput>)textInput {

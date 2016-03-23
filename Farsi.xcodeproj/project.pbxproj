@@ -24,9 +24,13 @@
 		CB92F17E1CA089D200C5E9FC /* Vazir-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADD1C9CC16A000BA3FF /* Vazir-Bold.ttf */; };
 		CB92F17F1CA089D400C5E9FC /* Vazir.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF87ADE1C9CC16A000BA3FF /* Vazir.ttf */; };
 		CB92F1841CA0944900C5E9FC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB92F1831CA0944900C5E9FC /* Media.xcassets */; };
+		CB9A6DCA1CA2837A00AB6C4A /* RowOneStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6DC91CA2837A00AB6C4A /* RowOneStackView.m */; };
+		CB9A6DCD1CA2921700AB6C4A /* RowTwoStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6DCC1CA2921700AB6C4A /* RowTwoStackView.m */; };
+		CB9A6DD01CA2946600AB6C4A /* RowThreeStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6DCF1CA2946600AB6C4A /* RowThreeStackView.m */; };
 		CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA206D81CA0E10600EEC19A /* CharacterButton.m */; };
 		CBA799CF1CA1641E00309002 /* SwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA799CE1CA1641E00309002 /* SwitchButton.m */; };
 		CBA799D21CA172FF00309002 /* FarsiThemeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA799D11CA172FF00309002 /* FarsiThemeView.m */; };
+		CBC7ACFB1CA1D4E00018E570 /* popupLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */; };
 		CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC59A1C9C9EB7002A5E5D /* main.m */; };
 		CBCDC5A61C9C9EB7002A5E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */; };
 		CBCDC5B41C9C9EB7002A5E5D /* FarsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5B31C9C9EB7002A5E5D /* FarsiTests.m */; };
@@ -106,6 +110,12 @@
 		CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = UI/Home/HomePageViewController.m; sourceTree = "<group>"; };
 		CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FarsiTheme.xib; path = UI/FarsiTheme.xib; sourceTree = "<group>"; };
 		CB92F1831CA0944900C5E9FC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = UI/Media.xcassets; sourceTree = "<group>"; };
+		CB9A6DC81CA2837A00AB6C4A /* RowOneStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowOneStackView.h; path = UI/RowOneStackView.h; sourceTree = "<group>"; };
+		CB9A6DC91CA2837A00AB6C4A /* RowOneStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RowOneStackView.m; path = UI/RowOneStackView.m; sourceTree = "<group>"; };
+		CB9A6DCB1CA2921700AB6C4A /* RowTwoStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowTwoStackView.h; path = UI/RowTwoStackView.h; sourceTree = "<group>"; };
+		CB9A6DCC1CA2921700AB6C4A /* RowTwoStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RowTwoStackView.m; path = UI/RowTwoStackView.m; sourceTree = "<group>"; };
+		CB9A6DCE1CA2946600AB6C4A /* RowThreeStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowThreeStackView.h; path = UI/RowThreeStackView.h; sourceTree = "<group>"; };
+		CB9A6DCF1CA2946600AB6C4A /* RowThreeStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RowThreeStackView.m; path = UI/RowThreeStackView.m; sourceTree = "<group>"; };
 		CBA206D71CA0E10600EEC19A /* CharacterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterButton.h; path = UI/CharacterButton.h; sourceTree = "<group>"; };
 		CBA206D81CA0E10600EEC19A /* CharacterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterButton.m; path = UI/CharacterButton.m; sourceTree = "<group>"; };
 		CBA2C8271C9CB94500A8A9BA /* Farsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Farsi.entitlements; sourceTree = "<group>"; };
@@ -114,6 +124,8 @@
 		CBA799CE1CA1641E00309002 /* SwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchButton.m; path = UI/SwitchButton.m; sourceTree = "<group>"; };
 		CBA799D01CA172FF00309002 /* FarsiThemeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FarsiThemeView.h; path = UI/FarsiTheme/FarsiThemeView.h; sourceTree = "<group>"; };
 		CBA799D11CA172FF00309002 /* FarsiThemeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FarsiThemeView.m; path = UI/FarsiTheme/FarsiThemeView.m; sourceTree = "<group>"; };
+		CBC7ACF91CA1D4E00018E570 /* popupLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = popupLabel.h; path = UI/popupLabel.h; sourceTree = "<group>"; };
+		CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = popupLabel.m; path = UI/popupLabel.m; sourceTree = "<group>"; };
 		CBCDC5961C9C9EB7002A5E5D /* Farsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCDC59A1C9C9EB7002A5E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBCDC5A51C9C9EB7002A5E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -367,8 +379,16 @@
 				CBA206D81CA0E10600EEC19A /* CharacterButton.m */,
 				CBA799CD1CA1641E00309002 /* SwitchButton.h */,
 				CBA799CE1CA1641E00309002 /* SwitchButton.m */,
+				CBC7ACF91CA1D4E00018E570 /* popupLabel.h */,
+				CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */,
 				CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */,
 				CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */,
+				CB9A6DC81CA2837A00AB6C4A /* RowOneStackView.h */,
+				CB9A6DC91CA2837A00AB6C4A /* RowOneStackView.m */,
+				CB9A6DCB1CA2921700AB6C4A /* RowTwoStackView.h */,
+				CB9A6DCC1CA2921700AB6C4A /* RowTwoStackView.m */,
+				CB9A6DCE1CA2946600AB6C4A /* RowThreeStackView.h */,
+				CB9A6DCF1CA2946600AB6C4A /* RowThreeStackView.m */,
 				CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */,
 				CB92F1831CA0944900C5E9FC /* Media.xcassets */,
 				CBCDC5F21C9CA1B8002A5E5D /* Info.plist */,
@@ -704,13 +724,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB92F17C1CA0863C00C5E9FC /* UIFont+Core.m in Sources */,
+				CBC7ACFB1CA1D4E00018E570 /* popupLabel.m in Sources */,
 				CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */,
 				CBA799D21CA172FF00309002 /* FarsiThemeView.m in Sources */,
 				CB92F1791CA085FB00C5E9FC /* FACore.m in Sources */,
 				CB92F17D1CA0863C00C5E9FC /* UIViewController+Core.m in Sources */,
 				CB92F17B1CA0863C00C5E9FC /* UIColor+Core.m in Sources */,
+				CB9A6DCD1CA2921700AB6C4A /* RowTwoStackView.m in Sources */,
+				CB9A6DD01CA2946600AB6C4A /* RowThreeStackView.m in Sources */,
 				CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */,
 				CB92F17A1CA0863C00C5E9FC /* POPBasicAnimation+Core.m in Sources */,
+				CB9A6DCA1CA2837A00AB6C4A /* RowOneStackView.m in Sources */,
 				CBA799CF1CA1641E00309002 /* SwitchButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

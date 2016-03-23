@@ -11,5 +11,5 @@
 @interface CharacterButton : UIButton
 
 @property (strong, nonatomic) IBInspectable NSString *insertStr;
-
+@property (assign) IBInspectable BOOL isAction;
 @end

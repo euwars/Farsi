@@ -14,43 +14,25 @@
 
 @implementation SwitchButton
 
-- (id)initWithCoder:(NSCoder *)aCoder{
-    if(self = [super initWithCoder:aCoder]){
-    
-    }
-    return self;
-}
-
-
 - (void)awakeFromNib{
     [super awakeFromNib];
     
     [[self rac_signalForControlEvents:UIControlEventTouchUpInside]
      subscribeNext:^(UIControl *x) {
-         FarsiThemeView *View = (FarsiThemeView*)[[[[self.superview nextResponder] nextResponder] nextResponder] nextResponder];
+         FarsiThemeView *vc = (FarsiThemeView*)[[[[self.superview nextResponder] nextResponder] nextResponder] nextResponder];
          
-         if (self.viewNumber == 0) {
-             View.alphabetsView.hidden = NO;
-             View.numbersView.hidden = YES;
-             View.specialsView.hidden = YES;
+         if (vc.currentView == 1 | vc.currentView == 2) {
+             [self setTitle:@"۱۲۳" forState:UIControlStateNormal];
+             vc.currentView = 0;
+         }else{
+             vc.currentView = 1;
+             [self setTitle:@"الف" forState:UIControlStateNormal];
          }
          
-         if (self.viewNumber == 1) {
-             View.alphabetsView.hidden = YES;
-             View.numbersView.hidden = NO;
-             View.specialsView.hidden = YES;
-         }
-         
-         if (self.viewNumber == 2) {
-             View.alphabetsView.hidden = YES;
-             View.numbersView.hidden = YES;
-             View.specialsView.hidden = NO;
-         }
-     }];
+    }];
     
     
     if (self.viewNumber == 100) {
-        
         UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
         [self addGestureRecognizer:longPress];
     }
@@ -63,6 +45,5 @@
         }
     }
 }
-
 
 @end
