@@ -25,7 +25,7 @@
     NSArray *numbersR2 = [NSArray arrayWithObjects:@"-", @"/", @":", @"؛", @")", @"(", @"$", @"&", @"@", @"\"", @"", nil];
     NSArray *numbersR2InsertStr = [NSArray arrayWithObjects:@"-", @"/", @":", @"؛", @"(", @")", @"$", @"&", @"@", @"\"", @"", nil];
     NSArray *specialsR2 = [NSArray arrayWithObjects:@"-", @"\\", @"|", @"~", @"<", @">", @"€", @"£", @"¥", @"•", @"", nil];
-    NSArray *specialsR2InsertStr = [NSArray arrayWithObjects:@"-", @"\\", @"|", @"~", @">", @"<", @"€", @"£", @"¥", @"•", @"", nil];
+    NSArray *specialsR2InsertStr = [NSArray arrayWithObjects:@"-", @"\\", @"|", @"~", @">", @"<", @"€", @"£", @"¥", @"•", @"Delete", nil];
 
     switch (viewNumber) {
         case 0:{

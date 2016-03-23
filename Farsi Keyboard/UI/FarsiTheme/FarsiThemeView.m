@@ -11,30 +11,8 @@
 
 @implementation FarsiThemeView
 
-- (void)changeViewTo:(NSUInteger)viewNumber{
-    if (viewNumber == 0) {
-        self.alphabetsView.hidden = NO;
-        self.numbersView.hidden = YES;
-        self.specialsView.hidden = YES;
-    }
-    
-    if (viewNumber == 1) {
-        self.alphabetsView.hidden = YES;
-        self.numbersView.hidden = NO;
-        self.specialsView.hidden = YES;
-    }
-    
-    if (viewNumber == 2) {
-        self.alphabetsView.hidden = YES;
-        self.numbersView.hidden = YES;
-        self.specialsView.hidden = NO;
-    }
-}
-
 - (void)changeReturnTitleTo:(NSString*)title{
-    [self.alphabetReturn.titleLabel setText:title];
-    [self.numbersReturn.titleLabel setText:title];
-    [self.specialReturn.titleLabel setText:title];
+    [self.alphabetReturn setTitle:title forState:UIControlStateNormal];
 }
 
 - (void)awakeFromNib{

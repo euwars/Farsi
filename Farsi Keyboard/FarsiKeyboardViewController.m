@@ -39,8 +39,8 @@
     }];
     
     [[RACObserve(self, insertedString) skip:1]subscribeNext:^(id x) {
-        if ([self.insertedString isEqualToString:@" "] && themeView.alphabetsView.hidden) {
-            [themeView changeViewTo:0];
+        if ([self.insertedString isEqualToString:@" "] && !(themeView == 0)) {
+            themeView.currentView = 0;
         }
         [self.textDocumentProxy insertText:self.insertedString];
         popupLabel.hidden = YES;

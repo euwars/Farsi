@@ -27,7 +27,7 @@
     NSArray *alphabetsR1 = [NSArray arrayWithObjects:@"ض", @"ص", @"ق", @"ف", @"غ", @"ع", @"ه", @"خ", @"ح", @"ج", @"چ", nil];
     NSArray *numbersR1 = [NSArray arrayWithObjects:@"۱", @"۲", @"۳", @"۴", @"۵", @"۶", @"۷", @"۸", @"۹", @"۰", @"", nil];
     NSArray *specialsR1 = [NSArray arrayWithObjects:@"[", @"]", @"{", @"}", @"#", @"%", @"^", @"*", @"+", @"=", @"", nil];
-    NSArray *specialsR1InsertStr = [NSArray arrayWithObjects:@"]", @"[", @"}", @"{", @"#", @"%", @"^", @"*", @"+", @"=", @"", nil];
+    NSArray *specialsR1InsertStr = [NSArray arrayWithObjects:@"]", @"[", @"}", @"{", @"#", @"%", @"^", @"*", @"+", @"=", @"Delete", nil];
 
     switch (viewNumber) {
         case 0:{

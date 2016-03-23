@@ -21,7 +21,6 @@
 @property (strong, nonatomic) IBOutlet CharacterButton *numbersReturn;
 @property (strong, nonatomic) IBOutlet CharacterButton *specialReturn;
 
-- (void)changeViewTo:(NSUInteger)viewNumber;
 - (void)changeReturnTitleTo:(NSString*)title;
 
 @end

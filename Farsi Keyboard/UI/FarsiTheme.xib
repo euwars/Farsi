@@ -586,9 +586,6 @@
                                                     <state key="normal" title="بازگشت" backgroundImage="bgReturn">
                                                         <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="\n"/>
-                                                    </userDefinedRuntimeAttributes>
                                                     <variation key="heightClass=compact" misplaced="YES">
                                                         <rect key="frame" x="525" y="0.0" width="116" height="86"/>
                                                     </variation>

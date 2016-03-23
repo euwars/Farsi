@@ -24,9 +24,9 @@
 - (void)switchToView:(NSUInteger)viewNumber{
     NSArray *alphabetsR3 = [NSArray arrayWithObjects:@"ظ", @"ط", @"ژ", @"ز", @"ر", @"ذ", @"د", @"و", @"پ", @"ث",@"", nil];
     NSArray *numbersR3 = [NSArray arrayWithObjects:@"#+=", @"«", @".", @"،", @"؟", @"!", @"#", @"%", @"»", @"", @"", nil];
-    NSArray *numbersR3InsertStr = [NSArray arrayWithObjects:@"Switch2", @"»", @".", @"،", @"؟", @"!", @"#", @"%", @"«", @"", @"", nil];
+    NSArray *numbersR3InsertStr = [NSArray arrayWithObjects:@"Switch2", @"»", @".", @"،", @"؟", @"!", @"#", @"%", @"«", @"", @"Delete", nil];
     NSArray *specialsR3 = [NSArray arrayWithObjects:@"۱۲۳", @" ّ--", @" ّ--", @" ٌ--", @" ُ--", @" ٍ--", @" ً--", @" ِ--", @" َ--", @"", @"", nil];
-    NSArray *specialsR3InsertStr = [NSArray arrayWithObjects:@"Switch1", @"س", @"ّ", @"ٌ", @"ُ", @"ٍ", @"ً", @"ِ", @"َ", @"", @"Delete", nil];
+    NSArray *specialsR3InsertStr = [NSArray arrayWithObjects:@"Switch1", @"س", @"ّ", @"ٌ", @"ُ", @"ٍ", @"ً", @"ِ", @"َ", @"Delete", @"Delete", nil];
 
     switch (viewNumber) {
         case 0:{
