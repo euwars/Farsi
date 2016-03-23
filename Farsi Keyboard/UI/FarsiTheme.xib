@@ -511,8 +511,8 @@
                                                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="Delete"/>
                                                         <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="Delete"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </button>
                                             </subviews>
