@@ -15,6 +15,9 @@
 		CB6B107B1C9E120000AD8C4D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6B107A1C9E120000AD8C4D /* AVFoundation.framework */; };
 		CB6B107E1C9ED8DA00AD8C4D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */; };
 		CB6B10891C9EFD9A00AD8C4D /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */; };
+		CB8C2A991CA435CF0065F7BE /* RowFourStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2A981CA435CF0065F7BE /* RowFourStackView.m */; };
+		CB8C2A9E1CA447F00065F7BE /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8C2A9D1CA447F00065F7BE /* testViewController.m */; };
+		CB8C2AA31CA47BC90065F7BE /* FAUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5D81C9CA155002A5E5D /* FAUserInfo.m */; };
 		CB92F1781CA0832000C5E9FC /* FarsiTheme.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */; };
 		CB92F1791CA085FB00C5E9FC /* FACore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5D51C9CA128002A5E5D /* FACore.m */; };
 		CB92F17A1CA0863C00C5E9FC /* POPBasicAnimation+Core.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC5DB1C9CA160002A5E5D /* POPBasicAnimation+Core.m */; };
@@ -28,7 +31,6 @@
 		CB9A6DCD1CA2921700AB6C4A /* RowTwoStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6DCC1CA2921700AB6C4A /* RowTwoStackView.m */; };
 		CB9A6DD01CA2946600AB6C4A /* RowThreeStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9A6DCF1CA2946600AB6C4A /* RowThreeStackView.m */; };
 		CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA206D81CA0E10600EEC19A /* CharacterButton.m */; };
-		CBA799CF1CA1641E00309002 /* SwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA799CE1CA1641E00309002 /* SwitchButton.m */; };
 		CBA799D21CA172FF00309002 /* FarsiThemeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA799D11CA172FF00309002 /* FarsiThemeView.m */; };
 		CBC7ACFB1CA1D4E00018E570 /* popupLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */; };
 		CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCDC59A1C9C9EB7002A5E5D /* main.m */; };
@@ -108,6 +110,10 @@
 		CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = UI/Home/HomeViewController.m; sourceTree = "<group>"; };
 		CB6B10871C9EFD9A00AD8C4D /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = UI/Home/HomePageViewController.h; sourceTree = "<group>"; };
 		CB6B10881C9EFD9A00AD8C4D /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = UI/Home/HomePageViewController.m; sourceTree = "<group>"; };
+		CB8C2A971CA435CF0065F7BE /* RowFourStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowFourStackView.h; path = UI/RowFourStackView.h; sourceTree = "<group>"; };
+		CB8C2A981CA435CF0065F7BE /* RowFourStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RowFourStackView.m; path = UI/RowFourStackView.m; sourceTree = "<group>"; };
+		CB8C2A9C1CA447F00065F7BE /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testViewController.h; path = UI/testViewController.h; sourceTree = "<group>"; };
+		CB8C2A9D1CA447F00065F7BE /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testViewController.m; path = UI/testViewController.m; sourceTree = "<group>"; };
 		CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FarsiTheme.xib; path = UI/FarsiTheme.xib; sourceTree = "<group>"; };
 		CB92F1831CA0944900C5E9FC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = UI/Media.xcassets; sourceTree = "<group>"; };
 		CB9A6DC81CA2837A00AB6C4A /* RowOneStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RowOneStackView.h; path = UI/RowOneStackView.h; sourceTree = "<group>"; };
@@ -120,8 +126,6 @@
 		CBA206D81CA0E10600EEC19A /* CharacterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterButton.m; path = UI/CharacterButton.m; sourceTree = "<group>"; };
 		CBA2C8271C9CB94500A8A9BA /* Farsi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Farsi.entitlements; sourceTree = "<group>"; };
 		CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Farsi Keyboard.entitlements"; sourceTree = "<group>"; };
-		CBA799CD1CA1641E00309002 /* SwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchButton.h; path = UI/SwitchButton.h; sourceTree = "<group>"; };
-		CBA799CE1CA1641E00309002 /* SwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwitchButton.m; path = UI/SwitchButton.m; sourceTree = "<group>"; };
 		CBA799D01CA172FF00309002 /* FarsiThemeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FarsiThemeView.h; path = UI/FarsiTheme/FarsiThemeView.h; sourceTree = "<group>"; };
 		CBA799D11CA172FF00309002 /* FarsiThemeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FarsiThemeView.m; path = UI/FarsiTheme/FarsiThemeView.m; sourceTree = "<group>"; };
 		CBC7ACF91CA1D4E00018E570 /* popupLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = popupLabel.h; path = UI/popupLabel.h; sourceTree = "<group>"; };
@@ -358,6 +362,8 @@
 				CB6B107F1C9ED8DE00AD8C4D /* Home */,
 				CBCDC6001C9CA262002A5E5D /* Main.storyboard */,
 				CBCDC5FE1C9CA262002A5E5D /* LaunchScreen.storyboard */,
+				CB8C2A9C1CA447F00065F7BE /* testViewController.h */,
+				CB8C2A9D1CA447F00065F7BE /* testViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -375,25 +381,25 @@
 			isa = PBXGroup;
 			children = (
 				CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */,
-				CBA206D71CA0E10600EEC19A /* CharacterButton.h */,
-				CBA206D81CA0E10600EEC19A /* CharacterButton.m */,
-				CBA799CD1CA1641E00309002 /* SwitchButton.h */,
-				CBA799CE1CA1641E00309002 /* SwitchButton.m */,
-				CBC7ACF91CA1D4E00018E570 /* popupLabel.h */,
-				CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */,
 				CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */,
 				CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */,
+				CBA206D71CA0E10600EEC19A /* CharacterButton.h */,
+				CBA206D81CA0E10600EEC19A /* CharacterButton.m */,
+				CBC7ACF91CA1D4E00018E570 /* popupLabel.h */,
+				CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */,
+				CBA799D01CA172FF00309002 /* FarsiThemeView.h */,
+				CBA799D11CA172FF00309002 /* FarsiThemeView.m */,
 				CB9A6DC81CA2837A00AB6C4A /* RowOneStackView.h */,
 				CB9A6DC91CA2837A00AB6C4A /* RowOneStackView.m */,
 				CB9A6DCB1CA2921700AB6C4A /* RowTwoStackView.h */,
 				CB9A6DCC1CA2921700AB6C4A /* RowTwoStackView.m */,
 				CB9A6DCE1CA2946600AB6C4A /* RowThreeStackView.h */,
 				CB9A6DCF1CA2946600AB6C4A /* RowThreeStackView.m */,
+				CB8C2A971CA435CF0065F7BE /* RowFourStackView.h */,
+				CB8C2A981CA435CF0065F7BE /* RowFourStackView.m */,
 				CB92F1771CA0832000C5E9FC /* FarsiTheme.xib */,
 				CB92F1831CA0944900C5E9FC /* Media.xcassets */,
 				CBCDC5F21C9CA1B8002A5E5D /* Info.plist */,
-				CBA799D01CA172FF00309002 /* FarsiThemeView.h */,
-				CBA799D11CA172FF00309002 /* FarsiThemeView.m */,
 			);
 			path = "Farsi Keyboard";
 			sourceTree = "<group>";
@@ -502,9 +508,12 @@
 						DevelopmentTeam = PRZ3PYWDFH;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
 								enabled = 0;
 							};
 						};
@@ -522,7 +531,7 @@
 						DevelopmentTeam = PRZ3PYWDFH;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -699,6 +708,7 @@
 				CBCDC5E31C9CA160002A5E5D /* UIColor+Core.m in Sources */,
 				CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */,
 				CB6B10771C9E0CE700AD8C4D /* TutorialViewController.m in Sources */,
+				CB8C2A9E1CA447F00065F7BE /* testViewController.m in Sources */,
 				CB6B107E1C9ED8DA00AD8C4D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,8 +744,9 @@
 				CB9A6DD01CA2946600AB6C4A /* RowThreeStackView.m in Sources */,
 				CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */,
 				CB92F17A1CA0863C00C5E9FC /* POPBasicAnimation+Core.m in Sources */,
+				CB8C2A991CA435CF0065F7BE /* RowFourStackView.m in Sources */,
 				CB9A6DCA1CA2837A00AB6C4A /* RowOneStackView.m in Sources */,
-				CBA799CF1CA1641E00309002 /* SwitchButton.m in Sources */,
+				CB8C2AA31CA47BC90065F7BE /* FAUserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,11 +879,12 @@
 			baseConfigurationReference = 5634AC8917D9A1940BFACCA2 /* Pods-Farsi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Farsi/Farsi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Farsi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Farsi;
+				PRODUCT_BUNDLE_IDENTIFIER = Farzad.Farsi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -883,11 +895,12 @@
 			baseConfigurationReference = 68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Farsi/Farsi.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Farsi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Farsi;
+				PRODUCT_BUNDLE_IDENTIFIER = Farzad.Farsi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -943,11 +956,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0EED94D2021665E5D8C44A95 /* Pods-Farsi Keyboard.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Farsi Keyboard/Farsi Keyboard.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Farsi Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Farsi.Farsi-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = Farzad.Farsi.Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -956,11 +972,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A7F50A4FDF7A2483619A5C0 /* Pods-Farsi Keyboard.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Farsi Keyboard/Farsi Keyboard.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Farsi Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Farsi.Farsi-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = Farzad.Farsi.Keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

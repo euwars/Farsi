@@ -17,6 +17,7 @@ pod 'SDWebImage'
 pod 'Realm'
 pod 'NXTSegmentedControl'
 pod 'Masonry'
+pod 'MMWormhole', '~> 2.0.0'
 
 end
 
@@ -32,6 +33,7 @@ pod 'SDWebImage'
 pod 'Realm'
 pod 'NXTSegmentedControl'
 pod 'Masonry'
+pod 'MMWormhole', '~> 2.0.0'
 
 end
 

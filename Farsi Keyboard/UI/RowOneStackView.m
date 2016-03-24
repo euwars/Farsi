@@ -16,7 +16,7 @@
 
 - (void)awakeFromNib{
     [super awakeFromNib];
-    FarsiThemeView *vc = (FarsiThemeView*)[[[self.superview nextResponder]nextResponder] nextResponder];
+    FarsiThemeView *vc = (FarsiThemeView*)[[self.superview nextResponder] nextResponder];
     [[RACObserve(vc, currentView) skip:1] subscribeNext:^(id x) {
         [self switchToView:vc.currentView];
     }];

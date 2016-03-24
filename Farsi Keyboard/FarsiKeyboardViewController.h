@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FAUserInfo.h"
+#import "MMWormhole.h"
 
 @interface FarsiKeyboardViewController : UIInputViewController
 
@@ -14,5 +16,6 @@
 
 @property NSString *popoverStr;
 @property CGRect popoverRect;
+@property (nonatomic, strong) MMWormhole *wormhole;
 
 @end

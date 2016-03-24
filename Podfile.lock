@@ -31,6 +31,9 @@ PODS:
     - BlocksKit/DynamicDelegate
   - GVUserDefaults (1.0.2)
   - Masonry (0.6.4)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
   - NXTSegmentedControl (1.0.5)
   - pop (1.0.9)
   - ReactiveCocoa (2.5):
@@ -57,6 +60,7 @@ DEPENDENCIES:
   - BlocksKit
   - GVUserDefaults
   - Masonry
+  - MMWormhole (~> 2.0.0)
   - NXTSegmentedControl
   - pop
   - ReactiveCocoa (~> 2.3)
@@ -70,6 +74,7 @@ SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
   NXTSegmentedControl: 84816f67dc3956bfd4ce64df273793acee677abb
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a

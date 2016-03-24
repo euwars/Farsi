@@ -11,15 +11,9 @@
 
 @interface FarsiThemeView : UIView
 @property (nonatomic, weak) IBOutlet UIView *view;
-
+@property NSUInteger colorSet;
 @property NSUInteger currentView;
-
-@property (strong, nonatomic) IBOutlet UIView *alphabetsView;
-@property (strong, nonatomic) IBOutlet UIView *numbersView;
-@property (strong, nonatomic) IBOutlet UIView *specialsView;
 @property (strong, nonatomic) IBOutlet CharacterButton *alphabetReturn;
-@property (strong, nonatomic) IBOutlet CharacterButton *numbersReturn;
-@property (strong, nonatomic) IBOutlet CharacterButton *specialReturn;
 
 - (void)changeReturnTitleTo:(NSString*)title;
 

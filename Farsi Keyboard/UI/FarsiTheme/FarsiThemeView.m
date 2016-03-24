@@ -8,6 +8,7 @@
 
 #import "FarsiThemeView.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
+#import "UIColor+Core.h"
 
 @implementation FarsiThemeView
 
@@ -17,6 +18,7 @@
 
 - (void)awakeFromNib{
     [super awakeFromNib];
+
     [[[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"Switch0" object:nil]
       takeUntil:[self rac_willDeallocSignal]]
      subscribeNext:^(id x) {

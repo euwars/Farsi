@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (Core)
+- (UIColor *)lighterColor;
+- (UIColor *)darkerColor;
+
++ (UIColor *)colorone;
+
++ (UIColor *)colortwo;
+
++ (UIColor *)colorthree;
+
++ (UIColor *)colorfour;
 
 @end

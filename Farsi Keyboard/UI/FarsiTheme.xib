@@ -66,565 +66,560 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szu-jE-MnW">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="224"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dab-ep-I0I">
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gcX-Yv-88J">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="224"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gcX-Yv-88J">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="224"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9az-O0-etD" customClass="RowOneStackView">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="9az-O0-etD" customClass="RowOneStackView">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1T-cM-5rT" customClass="CharacterButton">
-                                                    <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ض" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT5-A1-Jrl" customClass="CharacterButton">
-                                                    <rect key="frame" x="34" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ص" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Oz-aV-GXN" customClass="CharacterButton">
-                                                    <rect key="frame" x="68" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ق" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BS0-Mj-v9U" customClass="CharacterButton">
-                                                    <rect key="frame" x="103" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ف" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sru-Xe-8Vd" customClass="CharacterButton">
-                                                    <rect key="frame" x="137" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="غ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c89-vz-Su3" customClass="CharacterButton">
-                                                    <rect key="frame" x="171" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ع" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-Zy-vLM" customClass="CharacterButton">
-                                                    <rect key="frame" x="205" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ه" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQE-Lm-fuc" customClass="CharacterButton">
-                                                    <rect key="frame" x="239" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="خ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yA8-Tp-6fP" customClass="CharacterButton">
-                                                    <rect key="frame" x="273" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ح" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJa-ZG-8uV" customClass="CharacterButton">
-                                                    <rect key="frame" x="307" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ج" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6t-th-moV" customClass="CharacterButton">
-                                                    <rect key="frame" x="341" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="چ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hoc-4t-2Yi" customClass="RowTwoStackView">
-                                            <rect key="frame" x="0.0" y="56" width="375" height="56"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCa-yl-GCF" customClass="CharacterButton">
-                                                    <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ش" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BI9-g8-Dog" customClass="CharacterButton">
-                                                    <rect key="frame" x="34" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="س" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBF-2F-RDZ" customClass="CharacterButton">
-                                                    <rect key="frame" x="68" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ی" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHh-en-dHO" customClass="CharacterButton">
-                                                    <rect key="frame" x="103" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ب" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzn-Oc-Z37" customClass="CharacterButton">
-                                                    <rect key="frame" x="137" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ل" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaO-y0-6EJ" customClass="CharacterButton">
-                                                    <rect key="frame" x="171" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ا" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmd-qj-Qb8" customClass="CharacterButton">
-                                                    <rect key="frame" x="205" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ت" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB7-t5-jtE" customClass="CharacterButton">
-                                                    <rect key="frame" x="239" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ن" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUb-vs-7Tq" customClass="CharacterButton">
-                                                    <rect key="frame" x="273" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="م" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyA-Rz-ycW" customClass="CharacterButton">
-                                                    <rect key="frame" x="307" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ک" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyl-sf-KXe" customClass="CharacterButton">
-                                                    <rect key="frame" x="341" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="گ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="i68-Wn-ygC" customClass="RowThreeStackView">
-                                            <rect key="frame" x="0.0" y="112" width="375" height="56"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-23-joc" customClass="CharacterButton">
-                                                    <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ظ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2W-nE-dye" customClass="CharacterButton">
-                                                    <rect key="frame" x="34" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ط" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLe-MM-3PZ" customClass="CharacterButton">
-                                                    <rect key="frame" x="68" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ژ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7r4-PZ-oKU" customClass="CharacterButton">
-                                                    <rect key="frame" x="103" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ز" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz5-Jl-IZu" customClass="CharacterButton">
-                                                    <rect key="frame" x="137" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ر" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTE-m4-27b" customClass="CharacterButton">
-                                                    <rect key="frame" x="171" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ذ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yx5-bu-kcd" customClass="CharacterButton">
-                                                    <rect key="frame" x="205" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="د" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLS-L7-B52" customClass="CharacterButton">
-                                                    <rect key="frame" x="239" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="و" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1i4-mz-X7i" customClass="CharacterButton">
-                                                    <rect key="frame" x="273" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="پ" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wuv-xC-tph" customClass="CharacterButton">
-                                                    <rect key="frame" x="307" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="ث" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCi-sU-zOD" customClass="CharacterButton">
-                                                    <rect key="frame" x="341" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" image="arrows" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="Delete"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                            </subviews>
-                                        </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="SUV-uf-WPz">
-                                            <rect key="frame" x="0.0" y="168" width="375" height="56"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNX-Dg-mGJ" customClass="SwitchButton">
-                                                    <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="۱۲۳" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="viewNumber">
-                                                            <integer key="value" value="1"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsO-o5-A6G" customClass="SwitchButton">
-                                                    <rect key="frame" x="34" y="0.0" width="34" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" image="smiley" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="viewNumber">
-                                                            <integer key="value" value="100"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dnd-bs-wLI">
-                                                    <rect key="frame" x="68" y="0.0" width="36" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" image="gif" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7X-2m-wR3" customClass="CharacterButton">
-                                                    <rect key="frame" x="104" y="0.0" width="169" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="فاصله" backgroundImage="bgSpace">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value=" "/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhl-4w-O2x" customClass="CharacterButton">
-                                                    <rect key="frame" x="273" y="0.0" width="35" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-5" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" title="نیم" backgroundImage="bgButton">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="‌"/>
-                                                    </userDefinedRuntimeAttributes>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="wEv-mG-T7m" customClass="CharacterButton">
-                                                    <rect key="frame" x="307" y="0.0" width="68" height="56"/>
-                                                    <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
-                                                    <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
-                                                    <inset key="titleEdgeInsets" minX="0.0" minY="-5" maxX="0.0" maxY="0.0"/>
-                                                    <size key="titleShadowOffset" width="0.0" height="2.2250738585072014e-308"/>
-                                                    <state key="normal" title="بازگشت" backgroundImage="bgReturn">
-                                                        <color key="titleColor" red="0.41960784313725491" green="0.81568627450980391" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    </state>
-                                                    <variation key="heightClass=compact" misplaced="YES">
-                                                        <rect key="frame" x="525" y="0.0" width="116" height="86"/>
-                                                    </variation>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Uhl-4w-O2x" firstAttribute="width" secondItem="SsO-o5-A6G" secondAttribute="width" id="08s-pi-ajc"/>
-                                                <constraint firstItem="s7X-2m-wR3" firstAttribute="centerX" secondItem="SUV-uf-WPz" secondAttribute="centerX" id="IAg-Pp-4fL"/>
-                                            </constraints>
-                                        </stackView>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1T-cM-5rT" customClass="CharacterButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ض">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QT5-A1-Jrl" customClass="CharacterButton">
+                                            <rect key="frame" x="34" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ص">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Oz-aV-GXN" customClass="CharacterButton">
+                                            <rect key="frame" x="68" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ق">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BS0-Mj-v9U" customClass="CharacterButton">
+                                            <rect key="frame" x="103" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ف">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sru-Xe-8Vd" customClass="CharacterButton">
+                                            <rect key="frame" x="137" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="غ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c89-vz-Su3" customClass="CharacterButton">
+                                            <rect key="frame" x="171" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ع">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hh-Zy-vLM" customClass="CharacterButton">
+                                            <rect key="frame" x="205" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ه">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQE-Lm-fuc" customClass="CharacterButton">
+                                            <rect key="frame" x="239" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="خ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yA8-Tp-6fP" customClass="CharacterButton">
+                                            <rect key="frame" x="273" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ح">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJa-ZG-8uV" customClass="CharacterButton">
+                                            <rect key="frame" x="307" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ج">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6t-th-moV" customClass="CharacterButton">
+                                            <rect key="frame" x="341" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="19"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="چ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hoc-4t-2Yi" customClass="RowTwoStackView">
+                                    <rect key="frame" x="0.0" y="56" width="375" height="56"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCa-yl-GCF" customClass="CharacterButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ش">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BI9-g8-Dog" customClass="CharacterButton">
+                                            <rect key="frame" x="34" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="س">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBF-2F-RDZ" customClass="CharacterButton">
+                                            <rect key="frame" x="68" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ی">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHh-en-dHO" customClass="CharacterButton">
+                                            <rect key="frame" x="103" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ب">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzn-Oc-Z37" customClass="CharacterButton">
+                                            <rect key="frame" x="137" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ل">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaO-y0-6EJ" customClass="CharacterButton">
+                                            <rect key="frame" x="171" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ا">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmd-qj-Qb8" customClass="CharacterButton">
+                                            <rect key="frame" x="205" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ت">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB7-t5-jtE" customClass="CharacterButton">
+                                            <rect key="frame" x="239" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ن">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUb-vs-7Tq" customClass="CharacterButton">
+                                            <rect key="frame" x="273" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="م">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyA-Rz-ycW" customClass="CharacterButton">
+                                            <rect key="frame" x="307" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ک">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyl-sf-KXe" customClass="CharacterButton">
+                                            <rect key="frame" x="341" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="گ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="i68-Wn-ygC" customClass="RowThreeStackView">
+                                    <rect key="frame" x="0.0" y="112" width="375" height="56"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZ8-23-joc" customClass="CharacterButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ظ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2W-nE-dye" customClass="CharacterButton">
+                                            <rect key="frame" x="34" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ط">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLe-MM-3PZ" customClass="CharacterButton">
+                                            <rect key="frame" x="68" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ژ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7r4-PZ-oKU" customClass="CharacterButton">
+                                            <rect key="frame" x="103" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ز">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz5-Jl-IZu" customClass="CharacterButton">
+                                            <rect key="frame" x="137" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ر">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTE-m4-27b" customClass="CharacterButton">
+                                            <rect key="frame" x="171" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ذ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yx5-bu-kcd" customClass="CharacterButton">
+                                            <rect key="frame" x="205" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="د">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLS-L7-B52" customClass="CharacterButton">
+                                            <rect key="frame" x="239" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="و">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1i4-mz-X7i" customClass="CharacterButton">
+                                            <rect key="frame" x="273" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="پ">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wuv-xC-tph" customClass="CharacterButton">
+                                            <rect key="frame" x="307" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="ث">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCi-sU-zOD" customClass="CharacterButton">
+                                            <rect key="frame" x="341" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="18"/>
+                                            <color key="tintColor" red="1" green="0.37254901959999998" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" image="arrows">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="Delete"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="SUV-uf-WPz" customClass="RowFourStackView">
+                                    <rect key="frame" x="0.0" y="168" width="375" height="56"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNX-Dg-mGJ" customClass="CharacterButton">
+                                            <rect key="frame" x="0.0" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <state key="normal" title="۱۲۳">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="viewNumber">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="Switch1"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsO-o5-A6G" customClass="CharacterButton">
+                                            <rect key="frame" x="34" y="0.0" width="34" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <state key="normal" image="smiley">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="viewNumber">
+                                                    <integer key="value" value="100"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="NextKeyboard"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dnd-bs-wLI" customClass="CharacterButton">
+                                            <rect key="frame" x="68" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <state key="normal" image="gif">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7X-2m-wR3" customClass="CharacterButton">
+                                            <rect key="frame" x="103" y="0.0" width="170" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <state key="normal" title="فاصله">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value=" "/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhl-4w-O2x" customClass="CharacterButton">
+                                            <rect key="frame" x="273" y="0.0" width="35" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-5" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="نیم">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="insertStr" value="‌"/>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="NO"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="wEv-mG-T7m" customClass="CharacterButton">
+                                            <rect key="frame" x="307" y="0.0" width="68" height="56"/>
+                                            <fontDescription key="fontDescription" name="Vazir" family="Vazir" pointSize="16"/>
+                                            <color key="tintColor" red="0.2274509804" green="0.035294117649999998" blue="0.95686274510000002" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                            <inset key="titleEdgeInsets" minX="0.0" minY="-4" maxX="0.0" maxY="0.0"/>
+                                            <size key="titleShadowOffset" width="0.0" height="2.2250738585072014e-308"/>
+                                            <state key="normal" title="بازگشت">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isAction" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <variation key="heightClass=compact" misplaced="YES">
+                                                <rect key="frame" x="525" y="0.0" width="116" height="86"/>
+                                            </variation>
+                                        </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="wEv-mG-T7m" firstAttribute="width" secondItem="qCi-sU-zOD" secondAttribute="width" multiplier="2" id="Jk3-On-mVa"/>
-                                        <constraint firstItem="SsO-o5-A6G" firstAttribute="width" secondItem="b2W-nE-dye" secondAttribute="width" id="gMm-eI-eNa"/>
-                                        <constraint firstItem="PNX-Dg-mGJ" firstAttribute="width" secondItem="lZ8-23-joc" secondAttribute="width" id="o2t-Af-v9g"/>
+                                        <constraint firstItem="Uhl-4w-O2x" firstAttribute="width" secondItem="SsO-o5-A6G" secondAttribute="width" id="08s-pi-ajc"/>
+                                        <constraint firstItem="s7X-2m-wR3" firstAttribute="centerX" secondItem="SUV-uf-WPz" secondAttribute="centerX" id="IAg-Pp-4fL"/>
                                     </constraints>
                                 </stackView>
                             </subviews>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="gcX-Yv-88J" firstAttribute="height" secondItem="Dab-ep-I0I" secondAttribute="height" id="A3t-sd-DA9"/>
-                                <constraint firstItem="gcX-Yv-88J" firstAttribute="width" secondItem="Dab-ep-I0I" secondAttribute="width" id="BxV-ix-LI2"/>
-                                <constraint firstItem="gcX-Yv-88J" firstAttribute="centerY" secondItem="Dab-ep-I0I" secondAttribute="centerY" id="OIQ-am-Z9E"/>
-                                <constraint firstItem="gcX-Yv-88J" firstAttribute="centerX" secondItem="Dab-ep-I0I" secondAttribute="centerX" id="m6G-rM-EgG"/>
+                                <constraint firstItem="wEv-mG-T7m" firstAttribute="width" secondItem="qCi-sU-zOD" secondAttribute="width" multiplier="2" id="Jk3-On-mVa"/>
+                                <constraint firstItem="SsO-o5-A6G" firstAttribute="width" secondItem="b2W-nE-dye" secondAttribute="width" id="gMm-eI-eNa"/>
+                                <constraint firstItem="PNX-Dg-mGJ" firstAttribute="width" secondItem="lZ8-23-joc" secondAttribute="width" id="o2t-Af-v9g"/>
                             </constraints>
-                        </view>
+                        </stackView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="Dab-ep-I0I" firstAttribute="centerX" secondItem="szu-jE-MnW" secondAttribute="centerX" id="FPL-Hr-Vkg"/>
-                        <constraint firstItem="Dab-ep-I0I" firstAttribute="height" secondItem="szu-jE-MnW" secondAttribute="height" id="FQX-hv-RRN"/>
-                        <constraint firstItem="Dab-ep-I0I" firstAttribute="centerY" secondItem="szu-jE-MnW" secondAttribute="centerY" id="OUB-3p-3cW"/>
-                        <constraint firstItem="Dab-ep-I0I" firstAttribute="width" secondItem="szu-jE-MnW" secondAttribute="width" id="h95-VG-Gu9"/>
+                        <constraint firstItem="gcX-Yv-88J" firstAttribute="height" secondItem="szu-jE-MnW" secondAttribute="height" id="ULF-mx-iVW"/>
+                        <constraint firstItem="gcX-Yv-88J" firstAttribute="width" secondItem="szu-jE-MnW" secondAttribute="width" id="ZI8-0S-bJL"/>
+                        <constraint firstItem="gcX-Yv-88J" firstAttribute="centerX" secondItem="szu-jE-MnW" secondAttribute="centerX" id="eOf-Oo-NS2"/>
+                        <constraint firstItem="gcX-Yv-88J" firstAttribute="centerY" secondItem="szu-jE-MnW" secondAttribute="centerY" id="kxy-EZ-INA"/>
                     </constraints>
-                    <variation key="heightClass=compact-widthClass=regular">
-                        <mask key="subviews">
-                            <include reference="Dab-ep-I0I"/>
-                        </mask>
-                    </variation>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceb-c9-I7V">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -746,7 +741,6 @@
             <color key="backgroundColor" red="0.15686274509803921" green="0.16470588235294117" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="szu-jE-MnW" secondAttribute="bottom" id="5SN-XH-SDK"/>
-                <constraint firstItem="szu-jE-MnW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="B50-08-vwK"/>
                 <constraint firstItem="szu-jE-MnW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="L8x-kR-nlD"/>
                 <constraint firstItem="szu-jE-MnW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TfL-NX-RRN"/>
                 <constraint firstItem="szu-jE-MnW" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="yMQ-1O-c4j">
@@ -760,9 +754,6 @@
                     <exclude reference="ceb-c9-I7V"/>
                     <exclude reference="zlT-gz-3tH"/>
                 </mask>
-                <mask key="constraints">
-                    <exclude reference="B50-08-vwK"/>
-                </mask>
             </variation>
             <variation key="heightClass=compact-widthClass=regular">
                 <mask key="subviews">
@@ -773,7 +764,6 @@
             </variation>
             <connections>
                 <outlet property="alphabetReturn" destination="wEv-mG-T7m" id="Fca-JO-nUu"/>
-                <outlet property="alphabetsView" destination="Dab-ep-I0I" id="I6z-NB-ZJj"/>
                 <outlet property="view" destination="-1" id="dtb-h6-iU9"/>
             </connections>
             <point key="canvasLocation" x="571.5" y="635.5"/>
@@ -796,9 +786,7 @@
     </objects>
     <resources>
         <image name="arrows" width="22" height="16"/>
-        <image name="bgButton" width="34" height="56"/>
         <image name="bgReturn" width="100" height="55"/>
-        <image name="bgSpace" width="162" height="55"/>
         <image name="gif" width="20" height="20"/>
         <image name="keyboardClose" width="20" height="20"/>
         <image name="smiley" width="20" height="20"/>

@@ -11,17 +11,22 @@
 @implementation FAUserInfo
 
 @dynamic keyboardIsActive;
+@dynamic colorSet;
 
 - (BOOL)save {
     return [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)reset {
-    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:@"com.Farsi"];
+    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:[self suitName]];
 }
 
 - (NSDictionary *)asDictionary {
     return [[NSUserDefaults standardUserDefaults] dictionaryRepresentation];
+}
+
+- (NSString *)suitName {
+    return @"group.com.farsi";
 }
 
 @end

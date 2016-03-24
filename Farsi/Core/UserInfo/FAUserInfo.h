@@ -11,6 +11,7 @@
 @interface FAUserInfo : GVUserDefaults
 
 @property (nonatomic) BOOL keyboardIsActive;
+@property (nonatomic) NSUInteger colorSet;
 
 - (BOOL)save;
 - (void)reset;
