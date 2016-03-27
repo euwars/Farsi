@@ -22,6 +22,7 @@
 
 - (void)switchToView:(NSUInteger)viewNumber{
     NSArray *alphabetsR3 = [NSArray arrayWithObjects:@"ظ", @"ط", @"ژ", @"ز", @"ر", @"ذ", @"د", @"و", @"پ", @"ث",@"", nil];
+    NSArray *alphabetsR3InsertStr = [NSArray arrayWithObjects:@"ظ", @"ط", @"ژ", @"ز", @"ر", @"ذ", @"د", @"و", @"پ", @"ث",@"Delete", nil];
     NSArray *numbersR3 = [NSArray arrayWithObjects:@"#+=", @"«", @".", @"،", @"؟", @"!", @"#", @"%", @"»", @"", @"", nil];
     NSArray *numbersR3InsertStr = [NSArray arrayWithObjects:@"Switch2", @"»", @".", @"،", @"؟", @"!", @"#", @"%", @"«", @"", @"Delete", nil];
     NSArray *specialsR3 = [NSArray arrayWithObjects:@"۱۲۳", @" ّ--", @" ّ--", @" ٌ--", @" ُ--", @" ٍ--", @" ً--", @" ِ--", @" َ--", @"", @"", nil];
@@ -32,7 +33,7 @@
             for (int i = 0; i < [self.arrangedSubviews count]; i++) {
                 CharacterButton *button = (CharacterButton*)self.arrangedSubviews[i];
                     [button setTitle:alphabetsR3[i] forState:UIControlStateNormal];
-                    button.insertStr = alphabetsR3[i];
+                    button.insertStr = alphabetsR3InsertStr[i];
                     if (i == 9) {button.hidden = NO;}
             }
         }

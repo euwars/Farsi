@@ -25,6 +25,8 @@ static const NSTimeInterval kNXTSegmentedControlDefaultAnimationDuration = 0.10f
 @property (nonatomic, strong) UIView *labelContainer;
 @property (nonatomic, copy) NSMutableArray *selectedLabels;
 @property (nonatomic, copy) NSMutableArray *labels;
+@property (nonatomic, copy) NSMutableArray *selectedImages;
+@property (nonatomic, copy) NSMutableArray *images;
 @property (nonatomic, strong) CALayer *maskLayer;
 @property (nonatomic, strong) UIView *thumbShowLayer;
 @property (nonatomic, copy) NSMutableDictionary *titleTextAttributes;
@@ -406,7 +408,7 @@ static const NSTimeInterval kNXTSegmentedControlDefaultAnimationDuration = 0.10f
     CGFloat height = CGRectGetHeight(boundingRect);
     
     return CGRectMake(boundingRect.origin.x, boundingRect.origin.y, width,
-                      height);
+                      2);
 }
 
 - (CGRect)_thumbBoundingRect {
@@ -464,7 +466,7 @@ static const NSTimeInterval kNXTSegmentedControlDefaultAnimationDuration = 0.10f
 - (CGPoint)_centerForSegmentAtIndex:(NSUInteger)index {
     if (index < [self numberOfSegments]) {
         UILabel *segment = self.selectedLabels[index];
-        return segment.center;
+        return CGPointMake(segment.center.x, segment.center.y+15);
     } else {
         return CGPointZero;
     }

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FDDCCAE30CC70AEC472218CB'
+               BlueprintIdentifier = '0A9D63BA4BD24D67CDEB3A0F'
                BlueprintName = 'NXTSegmentedControl'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libNXTSegmentedControl.a'>

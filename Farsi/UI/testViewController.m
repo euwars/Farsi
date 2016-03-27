@@ -22,9 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.wormhole = [[MMWormhole alloc] initWithApplicationGroupIdentifier:@"group.com.farsi"
-                                                         optionalDirectory:@"Farsi"];
 
     
 }
@@ -33,6 +30,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [self.tv resignFirstResponder];
+
+}
+
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     

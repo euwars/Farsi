@@ -18,6 +18,7 @@ pod 'Realm'
 pod 'NXTSegmentedControl'
 pod 'Masonry'
 pod 'MMWormhole', '~> 2.0.0'
+pod 'SwipeView'
 
 end
 

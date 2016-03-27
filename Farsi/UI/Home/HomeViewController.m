@@ -25,6 +25,7 @@
     
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
+    imageView.tintColor = [UIColor colorWithCSS:@"212339"];
     imageView.image = [UIImage imageNamed:@"farsilogo"];
     self.navigationItem.titleView = imageView;
     tracker = YES;
@@ -32,47 +33,25 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([segue.identifier isEqualToString:@"showHomeNavigation"]) {
-        HomePageViewController *pageVC = (HomePageViewController*)segue.destinationViewController;
-        
-        NXTSegmentedControl *segmentedControl = [[NXTSegmentedControl alloc] initWithItems:@[@"تست", @"شخصی سازی"]];
-        [segmentedControl setTitleTextAttributes:@{ NSFontAttributeName: [UIFont vazirWithWeight:FAFontWeightRegular size:14], NSForegroundColorAttributeName: [UIColor colorWithCSS:@"ffffff"]} forState:UIControlStateNormal];
-        segmentedControl.tintColor = [UIColor clearColor];
-        segmentedControl.thumbColor = [UIColor colorWithCSS:@"#383A3F"];
-        segmentedControl.selectedSegmentIndex = 1;
-        [self.topBar addSubview: segmentedControl];
+//        HomePageViewController *pageVC = (HomePageViewController*)segue.destinationViewController;
 
-        [segmentedControl mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(@4);
-            make.height.mas_equalTo(@40);
-            make.width.mas_equalTo(self.topBar.mas_width);
-            make.centerX.equalTo(self.topBar.mas_centerX);
-        }];
         
-        [[segmentedControl rac_signalForControlEvents:UIControlEventValueChanged]
-         subscribeNext:^(UIControl *x) {
-             tracker = NO;
-             UIViewController *currentVC = segmentedControl.selectedSegmentIndex ? [self.storyboard instantiateViewControllerWithIdentifier:@"number1"] : [self.storyboard instantiateViewControllerWithIdentifier:@"number2"];
-             [pageVC setViewControllers:@[currentVC] direction:segmentedControl.selectedSegmentIndex ? UIPageViewControllerNavigationDirectionForward : UIPageViewControllerNavigationDirectionReverse animated:YES completion:^(BOOL finished) {
-                 if (finished) {
-                     tracker = YES;
-                 }
-             }];
-         }];
-        
-        [[RACObserve(pageVC, currentPageIndex) skip:1] subscribeNext:^(id x) {
-            [segmentedControl setSelectedSegmentIndex:pageVC.currentPageIndex];
-        }];
-        
-        [[RACObserve(pageVC, scrollRatio) skip:1] subscribeNext:^(id x) {
-            if (tracker) {
-                [segmentedControl _moveThumbToNewFrame:CGRectMake((self.view.frame.size.width/2)*pageVC.scrollRatio, 3, (segmentedControl.frame.size.width/2)-3, 34)];
-            }
-        }];
+
+//        
+//        [[RACObserve(pageVC, currentPageIndex) skip:1] subscribeNext:^(id x) {
+//            [segmentedControl setSelectedSegmentIndex:pageVC.currentPageIndex];
+//        }];
+//        
+//        [[RACObserve(pageVC, scrollRatio) skip:1] subscribeNext:^(id x) {
+//            if (tracker) {
+//                [segmentedControl _moveThumbToNewFrame:CGRectMake((self.view.frame.size.width/2)*pageVC.scrollRatio, 34, (segmentedControl.frame.size.width/2)-3, 2)];
+//            }
+//        }];
     }
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
+    return UIStatusBarStyleDefault;
 }
 
 @end

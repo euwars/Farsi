@@ -19,5 +19,5 @@
 + (UIColor *)colorthree;
 
 + (UIColor *)colorfour;
-
++ (NSArray *)allColors;
 @end

@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B1837F731445BBAFFBC062D7 /* libPods-Farsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC646FEFD8C7023E4A12E745 /* libPods-Farsi.a */; };
+		CB202C001CA5792900577784 /* HomeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB202BFF1CA5792900577784 /* HomeNavigationViewController.m */; };
+		CB202C061CA5846200577784 /* ThemesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB202C051CA5846200577784 /* ThemesViewController.m */; };
+		CB202C091CA5852200577784 /* ThemesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB202C081CA5852200577784 /* ThemesCollectionViewCell.m */; };
+		CB202C511CA7370900577784 /* words.realm in Resources */ = {isa = PBXBuildFile; fileRef = CB202C501CA7370900577784 /* words.realm */; };
+		CB202C541CA7376E00577784 /* FAWord.m in Sources */ = {isa = PBXBuildFile; fileRef = CB202C531CA7376E00577784 /* FAWord.m */; };
+		CB202C571CA7445E00577784 /* SuggestionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB202C561CA7445E00577784 /* SuggestionButton.m */; };
+		CB202C5A1CA75BD300577784 /* SuggestionStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB202C591CA75BD300577784 /* SuggestionStackView.m */; };
 		CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */; };
 		CB6B10701C9DE65200AD8C4D /* RootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6B106F1C9DE65200AD8C4D /* RootNavigationViewController.m */; };
 		CB6B10731C9E0CAA00AD8C4D /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CB6B10721C9E0CAA00AD8C4D /* tutorial.mp4 */; };
@@ -97,6 +104,19 @@
 		68AB56103B499FECE015D167 /* Pods-Farsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi/Pods-Farsi.release.xcconfig"; sourceTree = "<group>"; };
 		6A7F50A4FDF7A2483619A5C0 /* Pods-Farsi Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Farsi Keyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Farsi Keyboard/Pods-Farsi Keyboard.release.xcconfig"; sourceTree = "<group>"; };
 		745AC999235401DDF92E8452 /* libPods-Farsi Keyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Farsi Keyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB202BFE1CA5792900577784 /* HomeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeNavigationViewController.h; path = UI/Home/HomeNavigationViewController.h; sourceTree = "<group>"; };
+		CB202BFF1CA5792900577784 /* HomeNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeNavigationViewController.m; path = UI/Home/HomeNavigationViewController.m; sourceTree = "<group>"; };
+		CB202C041CA5846200577784 /* ThemesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThemesViewController.h; path = UI/Themes/ThemesViewController.h; sourceTree = "<group>"; };
+		CB202C051CA5846200577784 /* ThemesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThemesViewController.m; path = UI/Themes/ThemesViewController.m; sourceTree = "<group>"; };
+		CB202C071CA5852200577784 /* ThemesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThemesCollectionViewCell.h; path = UI/Themes/ThemesCollectionViewCell.h; sourceTree = "<group>"; };
+		CB202C081CA5852200577784 /* ThemesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThemesCollectionViewCell.m; path = UI/Themes/ThemesCollectionViewCell.m; sourceTree = "<group>"; };
+		CB202C501CA7370900577784 /* words.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.realm; sourceTree = "<group>"; };
+		CB202C521CA7376E00577784 /* FAWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAWord.h; sourceTree = "<group>"; };
+		CB202C531CA7376E00577784 /* FAWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAWord.m; sourceTree = "<group>"; };
+		CB202C551CA7445E00577784 /* SuggestionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuggestionButton.h; path = UI/SuggestionButton.h; sourceTree = "<group>"; };
+		CB202C561CA7445E00577784 /* SuggestionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuggestionButton.m; path = UI/SuggestionButton.m; sourceTree = "<group>"; };
+		CB202C581CA75BD300577784 /* SuggestionStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuggestionStackView.h; path = UI/SuggestionStackView.h; sourceTree = "<group>"; };
+		CB202C591CA75BD300577784 /* SuggestionStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SuggestionStackView.m; path = UI/SuggestionStackView.m; sourceTree = "<group>"; };
 		CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarsiKeyboardViewController.h; sourceTree = "<group>"; };
 		CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarsiKeyboardViewController.m; sourceTree = "<group>"; };
 		CB6B106E1C9DE65200AD8C4D /* RootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootNavigationViewController.h; path = UI/RootNavigation/RootNavigationViewController.h; sourceTree = "<group>"; };
@@ -222,6 +242,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CB202BFD1CA5746A00577784 /* Segmented */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Segmented;
+			sourceTree = "<group>";
+		};
 		CB6B10711C9DE65700AD8C4D /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +270,8 @@
 		CB6B107F1C9ED8DE00AD8C4D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CB202BFE1CA5792900577784 /* HomeNavigationViewController.h */,
+				CB202BFF1CA5792900577784 /* HomeNavigationViewController.m */,
 				CB6B107C1C9ED8DA00AD8C4D /* HomeViewController.h */,
 				CB6B107D1C9ED8DA00AD8C4D /* HomeViewController.m */,
 				CB6B10871C9EFD9A00AD8C4D /* HomePageViewController.h */,
@@ -356,12 +385,17 @@
 		CBCDC5CF1C9CA0D4002A5E5D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CB202BFD1CA5746A00577784 /* Segmented */,
 				CB6B10711C9DE65700AD8C4D /* Navigation */,
 				CBCDC5D01C9CA0DC002A5E5D /* GetStarted */,
 				CB6B10741C9E0CBB00AD8C4D /* Tutorial */,
 				CB6B107F1C9ED8DE00AD8C4D /* Home */,
 				CBCDC6001C9CA262002A5E5D /* Main.storyboard */,
 				CBCDC5FE1C9CA262002A5E5D /* LaunchScreen.storyboard */,
+				CB202C041CA5846200577784 /* ThemesViewController.h */,
+				CB202C051CA5846200577784 /* ThemesViewController.m */,
+				CB202C071CA5852200577784 /* ThemesCollectionViewCell.h */,
+				CB202C081CA5852200577784 /* ThemesCollectionViewCell.m */,
 				CB8C2A9C1CA447F00065F7BE /* testViewController.h */,
 				CB8C2A9D1CA447F00065F7BE /* testViewController.m */,
 			);
@@ -380,15 +414,22 @@
 		CBCDC5EE1C9CA1B8002A5E5D /* Farsi Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				CB202C521CA7376E00577784 /* FAWord.h */,
+				CB202C531CA7376E00577784 /* FAWord.m */,
+				CB202C501CA7370900577784 /* words.realm */,
 				CBA2C8281C9CB95000A8A9BA /* Farsi Keyboard.entitlements */,
 				CB6B106B1C9D8E9900AD8C4D /* FarsiKeyboardViewController.h */,
 				CB6B106C1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m */,
+				CB202C551CA7445E00577784 /* SuggestionButton.h */,
+				CB202C561CA7445E00577784 /* SuggestionButton.m */,
 				CBA206D71CA0E10600EEC19A /* CharacterButton.h */,
 				CBA206D81CA0E10600EEC19A /* CharacterButton.m */,
 				CBC7ACF91CA1D4E00018E570 /* popupLabel.h */,
 				CBC7ACFA1CA1D4E00018E570 /* popupLabel.m */,
 				CBA799D01CA172FF00309002 /* FarsiThemeView.h */,
 				CBA799D11CA172FF00309002 /* FarsiThemeView.m */,
+				CB202C581CA75BD300577784 /* SuggestionStackView.h */,
+				CB202C591CA75BD300577784 /* SuggestionStackView.m */,
 				CB9A6DC81CA2837A00AB6C4A /* RowOneStackView.h */,
 				CB9A6DC91CA2837A00AB6C4A /* RowOneStackView.m */,
 				CB9A6DCB1CA2921700AB6C4A /* RowTwoStackView.h */,
@@ -590,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB92F17E1CA089D200C5E9FC /* Vazir-Bold.ttf in Resources */,
+				CB202C511CA7370900577784 /* words.realm in Resources */,
 				CB92F1781CA0832000C5E9FC /* FarsiTheme.xib in Resources */,
 				CB92F1841CA0944900C5E9FC /* Media.xcassets in Resources */,
 				CB92F17F1CA089D400C5E9FC /* Vazir.ttf in Resources */,
@@ -697,10 +739,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6B10701C9DE65200AD8C4D /* RootNavigationViewController.m in Sources */,
+				CB202C001CA5792900577784 /* HomeNavigationViewController.m in Sources */,
 				CBCDC5D61C9CA128002A5E5D /* FACore.m in Sources */,
 				CBCDC5E81C9CA189002A5E5D /* GetStartedViewController.m in Sources */,
 				CBCDC5D91C9CA155002A5E5D /* FAUserInfo.m in Sources */,
 				CBCDC5E41C9CA160002A5E5D /* UIFont+Core.m in Sources */,
+				CB202C061CA5846200577784 /* ThemesViewController.m in Sources */,
 				CBCDC5E51C9CA160002A5E5D /* UIViewController+Core.m in Sources */,
 				CB6B10891C9EFD9A00AD8C4D /* HomePageViewController.m in Sources */,
 				CBCDC5E21C9CA160002A5E5D /* POPBasicAnimation+Core.m in Sources */,
@@ -708,6 +752,7 @@
 				CBCDC5E31C9CA160002A5E5D /* UIColor+Core.m in Sources */,
 				CBCDC59B1C9C9EB7002A5E5D /* main.m in Sources */,
 				CB6B10771C9E0CE700AD8C4D /* TutorialViewController.m in Sources */,
+				CB202C091CA5852200577784 /* ThemesCollectionViewCell.m in Sources */,
 				CB8C2A9E1CA447F00065F7BE /* testViewController.m in Sources */,
 				CB6B107E1C9ED8DA00AD8C4D /* HomeViewController.m in Sources */,
 			);
@@ -734,6 +779,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB92F17C1CA0863C00C5E9FC /* UIFont+Core.m in Sources */,
+				CB202C571CA7445E00577784 /* SuggestionButton.m in Sources */,
 				CBC7ACFB1CA1D4E00018E570 /* popupLabel.m in Sources */,
 				CB6B106D1C9D8E9900AD8C4D /* FarsiKeyboardViewController.m in Sources */,
 				CBA799D21CA172FF00309002 /* FarsiThemeView.m in Sources */,
@@ -743,6 +789,8 @@
 				CB9A6DCD1CA2921700AB6C4A /* RowTwoStackView.m in Sources */,
 				CB9A6DD01CA2946600AB6C4A /* RowThreeStackView.m in Sources */,
 				CBA206D91CA0E10600EEC19A /* CharacterButton.m in Sources */,
+				CB202C541CA7376E00577784 /* FAWord.m in Sources */,
+				CB202C5A1CA75BD300577784 /* SuggestionStackView.m in Sources */,
 				CB92F17A1CA0863C00C5E9FC /* POPBasicAnimation+Core.m in Sources */,
 				CB8C2A991CA435CF0065F7BE /* RowFourStackView.m in Sources */,
 				CB9A6DCA1CA2837A00AB6C4A /* RowOneStackView.m in Sources */,

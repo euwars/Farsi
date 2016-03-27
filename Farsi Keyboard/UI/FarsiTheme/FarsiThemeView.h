@@ -13,6 +13,7 @@
 @property (nonatomic, weak) IBOutlet UIView *view;
 @property NSUInteger colorSet;
 @property NSUInteger currentView;
+@property (nonatomic, strong) NSArray *suggestionWords;
 @property (strong, nonatomic) IBOutlet CharacterButton *alphabetReturn;
 
 - (void)changeReturnTitleTo:(NSString*)title;

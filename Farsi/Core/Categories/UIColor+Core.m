@@ -32,7 +32,6 @@
     return nil;
 }
 
-
 + (UIColor *)colorone{
     return [UIColor colorWithCSS:[self allColors][INFO.colorSet][0]];
 }
@@ -49,7 +48,7 @@
     return [UIColor colorWithCSS:[self allColors][INFO.colorSet][3]];
 }
 
-+ (NSArray *)allColors{return [NSArray arrayWithObjects:[self color0], [self color1], [self color2], [self color3], [self color4], [self color5], [self color6], [self color7], [self color8], [self color9], [self color10], [self color11], [self color12], [self color13], [self color14], [self color15], [self color16], [self color17], [self color18], [self color19], nil];
++ (NSArray *)allColors{return [NSArray arrayWithObjects:[self color0], [self color1], [self color2], [self color3], [self color4], [self color5], [self color6], [self color7], [self color8], [self color9], [self color10], [self color11], [self color12], nil];
 }
 
 + (NSArray *)color0{return [NSArray arrayWithObjects:@"d2d5dc", @"ffffff", @"adb4be", @"000000", nil];}
@@ -65,12 +64,5 @@
 + (NSArray *)color10{return [NSArray arrayWithObjects:@"3C3530", @"AACD6E", @"C5C6B6", @"F16B6F", nil];}
 + (NSArray *)color11{return [NSArray arrayWithObjects:@"1e2022", @"52616a", @"c9d6de", @"f0f5f9", nil];}
 + (NSArray *)color12{return [NSArray arrayWithObjects:@"272625", @"3f4040", @"5e5e5f", @"fff1b9", nil];}
-+ (NSArray *)color13{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
-+ (NSArray *)color14{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
-+ (NSArray *)color15{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
-+ (NSArray *)color16{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
-+ (NSArray *)color17{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
-+ (NSArray *)color18{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
-+ (NSArray *)color19{return [NSArray arrayWithObjects:@"", @"", @"", @"", nil];}
 
 @end

@@ -17,5 +17,6 @@
 @property NSString *popoverStr;
 @property CGRect popoverRect;
 @property (nonatomic, strong) MMWormhole *wormhole;
+@property (nonatomic) NSLayoutConstraint *heightConstraint;
 
 @end
