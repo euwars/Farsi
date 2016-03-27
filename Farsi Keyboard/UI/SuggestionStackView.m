@@ -20,15 +20,15 @@
     [[RACObserve(vc, suggestionWords) skip:1] subscribeNext:^(id x) {
         
         SuggestionButton *button = (SuggestionButton*)self.arrangedSubviews[0];
-        [button setTitle:[vc.suggestionWords[2] valueForKey:@"word"] forState:UIControlStateNormal];
+        [button setTitle:[NSString stringWithFormat:@"%@",[vc.suggestionWords[2] valueForKey:@"word"]] forState:UIControlStateNormal];
 
         SuggestionButton *button1 = (SuggestionButton*)self.arrangedSubviews[1];
-        [button1 setTitle:[vc.suggestionWords[0] valueForKey:@"word"] forState:UIControlStateNormal];
+        [button1 setTitle:[NSString stringWithFormat:@"%@",[vc.suggestionWords[0] valueForKey:@"word"]] forState:UIControlStateNormal];
         
         SuggestionButton *button2 = (SuggestionButton*)self.arrangedSubviews[2];
-        [button2 setTitle:[vc.suggestionWords[1] valueForKey:@"word"] forState:UIControlStateNormal];
+        [button2 setTitle:[NSString stringWithFormat:@"%@",[vc.suggestionWords[1] valueForKey:@"word"]] forState:UIControlStateNormal];
         
-    }];
+    }]; 
 }
 
 @end

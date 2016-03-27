@@ -219,7 +219,7 @@
     
     RLMResults<FAWord *> *suggestionList = [[FAWord objectsInRealm:realm where:[NSString stringWithFormat:@"word BEGINSWITH '%@'",lastWord]] sortedResultsUsingProperty:@"freq" ascending:NO];
     if (suggestionList.count >2) {
-        themeView.suggestionWords = [NSArray arrayWithObjects:suggestionList[0], suggestionList[1], suggestionList[2], suggestionList[3], nil];
+        themeView.suggestionWords = [NSArray arrayWithObjects:suggestionList[0], suggestionList[1], suggestionList[2], nil];
     }
     
 }
